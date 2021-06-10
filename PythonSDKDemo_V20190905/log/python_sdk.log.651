@@ -1,0 +1,244 @@
+2021-05-20 Thursday 13:58:17  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514152605982/ HTTP/1.1" 200 6828
+2021-05-20 Thursday 13:58:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514152605982/ HTTP/1.1" 200 6828
+2021-05-20 Thursday 13:58:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514152605982/ HTTP/1.1" 200 6828
+2021-05-20 Thursday 13:58:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514152605982/ HTTP/1.1" 200 6828
+2021-05-20 Thursday 13:58:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5292
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514152605982/ HTTP/1.1" 200 6828
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5293
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5293
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-05-20 Thursday 13:58:19  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 13:58:19  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 13:58:19  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:19  [INFO]:  invokeAPI2  {"accessToken":"bf30222681ae1b715b5d312c2bf44263","tokenType":"bearer","refreshToken":"ce67a84a2ea8f7c56b5ce8ccdee2641","expiresIn":3600,"scope":"default"}
+2021-05-20 Thursday 13:58:19  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-05-20 Thursday 13:58:19  [INFO]:  queryBatchDevicesInfo  bf30222681ae1b715b5d312c2bf44263
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5293
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5293
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514124048885/ HTTP/1.1" 200 5451
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5293
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514124048885/ HTTP/1.1" 200 5451
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514124048885/ HTTP/1.1" 200 5451
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-05-20 Thursday 13:58:19  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-05-20 Thursday 13:58:19  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer bf30222681ae1b715b5d312c2bf44263', 'Content-Type': 'application/json'}
+2021-05-20 Thursday 13:58:19  [INFO]:  invokeAPI  None
+2021-05-20 Thursday 13:58:19  [INFO]:  invokeAPI  {"totalCount":1,"pageNo":0,"pageSize":20,"devices":[{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","nodeType":"GATEWAY","createTime":"20210424T073141Z","lastModifiedTime":"20210519T083241Z","deviceInfo":{"nodeId":"860411049886490","name":"jujube_environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"OFFLINE","statusDetail":"TIME_OUT","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"eventTime":"20210517T073201Z","serviceInfo":null}]}]}
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514124048885/ HTTP/1.1" 200 5451
+2021-05-20 Thursday 13:58:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514124048885/ HTTP/1.1" 200 5451
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514123015864/ HTTP/1.1" 200 10441
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514124048885/ HTTP/1.1" 200 5451
+2021-05-20 Thursday 13:58:26  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:26  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 13:58:26  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 13:58:26  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514123015864/ HTTP/1.1" 200 10441
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-05-20 Thursday 13:58:26  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 13:58:26  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 13:58:26  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:26  [INFO]:  invokeAPI2  {"accessToken":"5bb595a62873ffb4b61c50cfafc5a0dd","tokenType":"bearer","refreshToken":"5e980634d65b26b8094a56e46327cef","expiresIn":3600,"scope":"default"}
+2021-05-20 Thursday 13:58:26  [INFO]:  deleteDirectDevice  d18ff3df-f199-4b82-aa0d-7a545107a738
+2021-05-20 Thursday 13:58:26  [INFO]:  deleteDirectDevice  true
+2021-05-20 Thursday 13:58:26  [INFO]:  deleteDirectDevice  None
+2021-05-20 Thursday 13:58:26  [INFO]:  deleteDirectDevice  5bb595a62873ffb4b61c50cfafc5a0dd
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514123015864/ HTTP/1.1" 200 10441
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514123015864/ HTTP/1.1" 200 10441
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514123015864/ HTTP/1.1" 200 10441
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514122631743/ HTTP/1.1" 200 4598
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514123015864/ HTTP/1.1" 200 10441
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _make_request  https://49.4.92.191:8743 "DELETE /iocm/app/dm/v1.4.0/devices/d18ff3df-f199-4b82-aa0d-7a545107a738?&cascade=true HTTP/1.1" 404 None
+2021-05-20 Thursday 13:58:26  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices/d18ff3df-f199-4b82-aa0d-7a545107a738?&cascade=true
+2021-05-20 Thursday 13:58:26  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 5bb595a62873ffb4b61c50cfafc5a0dd', 'Content-Type': 'application/json'}
+2021-05-20 Thursday 13:58:26  [INFO]:  invokeAPI  None
+2021-05-20 Thursday 13:58:26  [INFO]:  invokeAPI  {"error_code":"100418","error_desc":"The deviceData is not existed."}
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:26  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:26  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 13:58:26  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 13:58:26  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512154311921/ HTTP/1.1" 200 5469
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514122631743/ HTTP/1.1" 200 4598
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514122631743/ HTTP/1.1" 200 4597
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514122631743/ HTTP/1.1" 200 4598
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514122631743/ HTTP/1.1" 200 4598
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514122631743/ HTTP/1.1" 200 4598
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-05-20 Thursday 13:58:27  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 13:58:27  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 13:58:27  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:27  [INFO]:  invokeAPI2  {"accessToken":"b7ef666e4c36a9cf2cd4aa4846529c0","tokenType":"bearer","refreshToken":"8257fde7b560708776d9d17bde76a426","expiresIn":3600,"scope":"default"}
+2021-05-20 Thursday 13:58:27  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-05-20 Thursday 13:58:27  [INFO]:  queryBatchDevicesInfo  b7ef666e4c36a9cf2cd4aa4846529c0
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512154311921/ HTTP/1.1" 200 5469
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512153541662/ HTTP/1.1" 200 4669
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512154311921/ HTTP/1.1" 200 5469
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512154311921/ HTTP/1.1" 200 5469
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-05-20 Thursday 13:58:27  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-05-20 Thursday 13:58:27  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer b7ef666e4c36a9cf2cd4aa4846529c0', 'Content-Type': 'application/json'}
+2021-05-20 Thursday 13:58:27  [INFO]:  invokeAPI  None
+2021-05-20 Thursday 13:58:27  [INFO]:  invokeAPI  {"totalCount":1,"pageNo":0,"pageSize":20,"devices":[{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","nodeType":"GATEWAY","createTime":"20210424T073141Z","lastModifiedTime":"20210519T083241Z","deviceInfo":{"nodeId":"860411049886490","name":"jujube_environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"OFFLINE","statusDetail":"TIME_OUT","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"eventTime":"20210517T073201Z","serviceInfo":null}]}]}
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512154311921/ HTTP/1.1" 200 5469
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512154311921/ HTTP/1.1" 200 5469
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:27  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-05-20 Thursday 13:58:34  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512152924908/ HTTP/1.1" 200 13167
+2021-05-20 Thursday 13:58:34  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512153541662/ HTTP/1.1" 200 4669
+2021-05-20 Thursday 13:58:48  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512153541662/ HTTP/1.1" 200 4669
+2021-05-20 Thursday 13:58:48  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512153541662/ HTTP/1.1" 200 4669
+2021-05-20 Thursday 13:58:48  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:48  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:48  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:48  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512153541662/ HTTP/1.1" 200 4669
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:51  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:51  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 13:58:51  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 13:58:51  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512152924908/ HTTP/1.1" 200 13166
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-05-20 Thursday 13:58:51  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 13:58:51  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 13:58:51  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 13:58:51  [INFO]:  invokeAPI2  {"accessToken":"c842cc89477782db2b6c2630d59ef6c7","tokenType":"bearer","refreshToken":"338ed8683e320c41388217f6fb03bd0","expiresIn":3600,"scope":"default"}
+2021-05-20 Thursday 13:58:51  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-05-20 Thursday 13:58:51  [INFO]:  queryBatchDevicesInfo  c842cc89477782db2b6c2630d59ef6c7
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512153541662/ HTTP/1.1" 200 4669
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512152924908/ HTTP/1.1" 200 13167
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 13:58:51  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-05-20 Thursday 13:58:51  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-05-20 Thursday 13:58:51  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer c842cc89477782db2b6c2630d59ef6c7', 'Content-Type': 'application/json'}
+2021-05-20 Thursday 13:58:51  [INFO]:  invokeAPI  None
+2021-05-20 Thursday 13:58:51  [INFO]:  invokeAPI  {"totalCount":0,"pageNo":0,"pageSize":20,"devices":null}
+2021-05-20 Thursday 14:07:14  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19564
+2021-05-20 Thursday 14:07:16  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512152924908/ HTTP/1.1" 200 13167
+2021-05-20 Thursday 14:07:16  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512152924908/ HTTP/1.1" 200 13167
+2021-05-20 Thursday 14:07:16  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 14:07:16  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 14:07:16  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 14:07:16  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 14:07:16  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI2  {"accessToken":"9989738f8653828bae8d1154e824b561","tokenType":"bearer","refreshToken":"46e88cfb2eeaa3624d471b37457a57","expiresIn":3600,"scope":"default"}
+2021-05-20 Thursday 14:07:17  [INFO]:  querySingleDeviceInfo  a2703f32-fda4-412f-8e78-db89ae2c9345
+2021-05-20 Thursday 14:07:17  [INFO]:  querySingleDeviceInfo  imsi
+2021-05-20 Thursday 14:07:17  [INFO]:  querySingleDeviceInfo  None
+2021-05-20 Thursday 14:07:17  [INFO]:  querySingleDeviceInfo  9989738f8653828bae8d1154e824b561
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514152605982/ HTTP/1.1" 200 6828
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5293
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices/a2703f32-fda4-412f-8e78-db89ae2c9345?&select=imsi HTTP/1.1" 404 None
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices/a2703f32-fda4-412f-8e78-db89ae2c9345?&select=imsi
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 9989738f8653828bae8d1154e824b561', 'Content-Type': 'application/json'}
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI  None
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI  {"error_code":"100403","error_desc":"The device is not existed."}
+2021-05-20 Thursday 14:07:17  [INFO]:  queryDeviceDataHistory  <Python_SDK_Demo.com.huawei.iotplatform.client.dto.QueryDeviceDataHistoryInDTO.QueryDeviceDataHistoryInDTO object at 0x7f584599d1d0>
+2021-05-20 Thursday 14:07:17  [INFO]:  queryDeviceDataHistory  9989738f8653828bae8d1154e824b561
+2021-05-20 Thursday 14:07:17  [INFO]:  queryDeviceDataHistory  {'appId': None, 'deviceId': 'a2703f32-fda4-412f-8e78-db89ae2c9345', 'endTime': None, 'gatewayId': None, 'pageNo': None, 'pageSize': 100, 'property': None, 'serviceId': None, 'startTime': None}
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514124048885/ HTTP/1.1" 200 5451
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/data/v1.2.0/deviceDataHistory?deviceId=a2703f32-fda4-412f-8e78-db89ae2c9345&pageSize=100 HTTP/1.1" 404 None
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/data/v1.2.0/deviceDataHistory
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 9989738f8653828bae8d1154e824b561', 'Content-Type': 'application/json'}
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI  {'appId': None, 'deviceId': 'a2703f32-fda4-412f-8e78-db89ae2c9345', 'endTime': None, 'gatewayId': None, 'pageNo': None, 'pageSize': 100, 'property': None, 'serviceId': None, 'startTime': None}
+2021-05-20 Thursday 14:07:17  [INFO]:  invokeAPI  {"error_code":"100418","error_desc":"The deviceData is not existed."}
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514123015864/ HTTP/1.1" 200 10440
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 14:07:17  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514122631743/ HTTP/1.1" 200 4598
+2021-05-20 Thursday 14:07:17  [ERROR]:  log_response  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "./device/views.py", line 154, in get
+    histoty_dto=dict_history_data['deviceDataHistoryDTOs']
+KeyError: 'deviceDataHistoryDTOs'
+2021-05-20 Thursday 14:09:08  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 14:09:08  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 14:09:08  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 14:09:08  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512154311921/ HTTP/1.1" 200 5468
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-05-20 Thursday 14:09:08  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-05-20 Thursday 14:09:08  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-05-20 Thursday 14:09:08  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-05-20 Thursday 14:09:08  [INFO]:  invokeAPI2  {"accessToken":"9a81c7385f4577382e8e2bdba82e17","tokenType":"bearer","refreshToken":"7c8e4132e0df15481e5247ec312436e4","expiresIn":3600,"scope":"default"}
+2021-05-20 Thursday 14:09:08  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-05-20 Thursday 14:09:08  [INFO]:  queryBatchDevicesInfo  9a81c7385f4577382e8e2bdba82e17
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512153541662/ HTTP/1.1" 200 4669
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-05-20 Thursday 14:09:08  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-05-20 Thursday 14:09:08  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 9a81c7385f4577382e8e2bdba82e17', 'Content-Type': 'application/json'}
+2021-05-20 Thursday 14:09:08  [INFO]:  invokeAPI  None
+2021-05-20 Thursday 14:09:08  [INFO]:  invokeAPI  {"totalCount":0,"pageNo":0,"pageSize":20,"devices":null}
+2021-05-20 Thursday 14:09:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-20 Thursday 14:09:39  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210512152924908/ HTTP/1.1" 200 13167
+2021-05-20 Thursday 14:11:40  [WARNING]:  log_response  Not Found: /favicon.ico

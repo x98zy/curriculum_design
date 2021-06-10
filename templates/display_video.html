@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>视频展示</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css/video.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+            $().ready(function(){
+                $(".tab-menu li").click(function(){
+                //通过 .index()方法获取元素下标，从0开始，赋值给某个变量
+                    var _index = $(this).index();
+                //让内容框的第 _index 个显示出来，其他的被隐藏
+                    $(".tab-box>div").eq(_index).show().siblings().hide();
+                //改变选中时候的选项框的样式，移除其他几个选项的样式
+                $(this).addClass("change").siblings().removeClass("change");
+                });
+            });
+    </script>
+    <section class="public_width">
+    <dl class="video_con">
+                <dt class="video_con_title">视频标题</dt>
+                <figure class="video_con_show tab">
+                    <div class="video_bofang tab-box">
+                        {% for video in videos %}
+                            <div class="video_con_show_con" style="display: none;">
+                                <video width="900" height="630" controls="">
+                                  <source src={{ video.path }} >
+                                </video>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <figcaption class="video_show_zs">
+                        <div class="video_show_zj">
+                            <img class="video_show_zj_img" src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/name.jpg">
+                            <p class="video_show_zj_js">
+                                <b class="video_show_zj_name">标题</b>
+                                <span class="video_show_zj_zc">描述</span>
+                            </p>
+                        </div>
+                        <span class="video_show_title">播放列表</span>
+                        <ul class="video_show_con tab-menu">
+                            {% for video in videos %}
+                                <li class="video_show_list"><img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/name.jpg"><span>{{ video.name }}</span></li>
+                            {% endfor %}
+                        </ul>
+                    </figcaption>
+                </figure>
+            </dl>
+    </section>
+</body>
+</html>

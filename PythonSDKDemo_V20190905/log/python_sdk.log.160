@@ -1,0 +1,105 @@
+2021-06-03 Thursday 10:07:22  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-06-03 Thursday 10:12:36  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:12:36  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:12:36  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:12:36  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:12:36  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:12:36  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-03 Thursday 10:12:36  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:12:36  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:12:36  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:12:36  [INFO]:  invokeAPI2  {"accessToken":"27f9345a7a772f119e6a4f874511932","tokenType":"bearer","refreshToken":"2a6df0f8e6533c4648466cbee6fd998","expiresIn":3600,"scope":"default"}
+2021-06-03 Thursday 10:12:36  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-06-03 Thursday 10:12:36  [INFO]:  queryBatchDevicesInfo  27f9345a7a772f119e6a4f874511932
+2021-06-03 Thursday 10:12:36  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:12:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210524130210609/ HTTP/1.1" 200 5870
+2021-06-03 Thursday 10:12:36  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-06-03 Thursday 10:12:36  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-06-03 Thursday 10:12:36  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 27f9345a7a772f119e6a4f874511932', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 10:12:36  [INFO]:  invokeAPI  None
+2021-06-03 Thursday 10:12:36  [INFO]:  invokeAPI  {"totalCount":1,"pageNo":0,"pageSize":20,"devices":[{"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T164558Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":1,"AirTemp":0,"AirHumidity":0,"LightIntensity":2607,"SoilHumidity":9300},"eventTime":"20210602T164557Z","serviceInfo":null}]}]}
+2021-06-03 Thursday 10:12:48  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:12:48  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:12:48  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:12:48  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:12:48  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:12:48  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-03 Thursday 10:12:48  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:12:48  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:12:48  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:12:48  [INFO]:  invokeAPI2  {"accessToken":"4b39e967a0e4b4e5ce455fdf129bb647","tokenType":"bearer","refreshToken":"dc1ee0419b444a5efa595d15e7f93","expiresIn":3600,"scope":"default"}
+2021-06-03 Thursday 10:12:48  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-06-03 Thursday 10:12:48  [INFO]:  queryBatchDevicesInfo  4b39e967a0e4b4e5ce455fdf129bb647
+2021-06-03 Thursday 10:12:48  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:12:48  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-06-03 Thursday 10:12:48  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-06-03 Thursday 10:12:48  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 4b39e967a0e4b4e5ce455fdf129bb647', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 10:12:48  [INFO]:  invokeAPI  None
+2021-06-03 Thursday 10:12:48  [INFO]:  invokeAPI  {"totalCount":1,"pageNo":0,"pageSize":20,"devices":[{"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T164558Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":1,"AirTemp":0,"AirHumidity":0,"LightIntensity":2607,"SoilHumidity":9300},"eventTime":"20210602T164557Z","serviceInfo":null}]}]}
+2021-06-03 Thursday 10:17:46  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:17:46  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:17:46  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:17:46  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:17:46  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:17:46  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-03 Thursday 10:17:46  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:17:46  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:17:46  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:17:46  [INFO]:  invokeAPI2  {"accessToken":"479a4dbeedfe3f87a28c5af7289104e","tokenType":"bearer","refreshToken":"01084578b1562ec019b0aec0974579","expiresIn":3600,"scope":"default"}
+2021-06-03 Thursday 10:17:46  [INFO]:  regDirectDevice  {'account': None, 'deviceInfo': {'batteryLevel': None, 'bridgeId': None, 'description': None, 'deviceType': 'MultiSensor', 'fwVersion': None, 'hwVersion': None, 'isSecurity': None, 'location': None, 'mac': None, 'manufacturerId': '8d2cb5b1888d459a914983c791e17bc1', 'manufacturerName': 'HUAWEI', 'model': '00000001', 'mute': None, 'name': None, 'nodeId': None, 'protocolType': 'LWM2M', 'serialNumber': None, 'sigVersion': None, 'signalStrength': None, 'status': None, 'statusDetail': None, 'supportedSecurity': None, 'swVersion': None}, 'deviceName': 'test', 'endUserId': None, 'groupId': None, 'imsi': None, 'isSecure': None, 'nodeId': '356566078226012', 'productId': '604219a122768f094ccb74b1', 'psk': None, 'timeout': None, 'verifyCode': None}
+2021-06-03 Thursday 10:17:46  [INFO]:  regDirectDevice  Y2fIeoKaw4Sizm0lZjGOZNfhRkoa
+2021-06-03 Thursday 10:17:46  [INFO]:  regDirectDevice  479a4dbeedfe3f87a28c5af7289104e
+2021-06-03 Thursday 10:17:46  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:17:47  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/reg/v1.1.0/deviceCredentials?appId=Y2fIeoKaw4Sizm0lZjGOZNfhRkoa HTTP/1.1" 200 None
+2021-06-03 Thursday 10:17:47  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/reg/v1.1.0/deviceCredentials?appId=Y2fIeoKaw4Sizm0lZjGOZNfhRkoa
+2021-06-03 Thursday 10:17:47  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 479a4dbeedfe3f87a28c5af7289104e', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 10:17:47  [INFO]:  invokeAPI  {"account": null, "deviceInfo": {"batteryLevel": null, "bridgeId": null, "description": null, "deviceType": "MultiSensor", "fwVersion": null, "hwVersion": null, "isSecurity": null, "location": null, "mac": null, "manufacturerId": "8d2cb5b1888d459a914983c791e17bc1", "manufacturerName": "HUAWEI", "model": "00000001", "mute": null, "name": null, "nodeId": null, "protocolType": "LWM2M", "serialNumber": null, "sigVersion": null, "signalStrength": null, "status": null, "statusDetail": null, "supportedSecurity": null, "swVersion": null}, "deviceName": "test", "endUserId": null, "groupId": null, "imsi": null, "isSecure": null, "nodeId": "356566078226012", "productId": "604219a122768f094ccb74b1", "psk": null, "timeout": null, "verifyCode": null}
+2021-06-03 Thursday 10:17:47  [INFO]:  invokeAPI  {"deviceId":"9a04b47b-c48b-4378-9804-6c2684167603","verifyCode":"4f5e731e","timeout":180,"psk":"7695999c678aec415422a38a660ab06e"}
+2021-06-03 Thursday 10:17:52  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:17:52  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:17:52  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:17:52  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:17:52  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:17:52  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-03 Thursday 10:17:52  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:17:52  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:17:52  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:17:52  [INFO]:  invokeAPI2  {"accessToken":"11bcc7676bd0c7cfde8a4affef6ad2","tokenType":"bearer","refreshToken":"a58118de7efb842c25954317e343986","expiresIn":3600,"scope":"default"}
+2021-06-03 Thursday 10:17:52  [INFO]:  deleteDirectDevice  9a04b47b-c48b-4378-9804-6c2684167603
+2021-06-03 Thursday 10:17:52  [INFO]:  deleteDirectDevice  true
+2021-06-03 Thursday 10:17:52  [INFO]:  deleteDirectDevice  None
+2021-06-03 Thursday 10:17:52  [INFO]:  deleteDirectDevice  11bcc7676bd0c7cfde8a4affef6ad2
+2021-06-03 Thursday 10:17:52  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:17:53  [DEBUG]:  _make_request  https://49.4.92.191:8743 "DELETE /iocm/app/dm/v1.4.0/devices/9a04b47b-c48b-4378-9804-6c2684167603?&cascade=true HTTP/1.1" 204 0
+2021-06-03 Thursday 10:17:53  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices/9a04b47b-c48b-4378-9804-6c2684167603?&cascade=true
+2021-06-03 Thursday 10:17:53  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 11bcc7676bd0c7cfde8a4affef6ad2', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 10:17:53  [INFO]:  invokeAPI  None
+2021-06-03 Thursday 10:17:53  [INFO]:  invokeAPI  
+2021-06-03 Thursday 10:20:22  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:20:22  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:20:22  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:20:22  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:20:22  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:20:22  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-03 Thursday 10:20:22  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 10:20:22  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 10:20:22  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 10:20:22  [INFO]:  invokeAPI2  {"accessToken":"bfd1ab70445bb5dc2ed751df5d6c6e","tokenType":"bearer","refreshToken":"79bfe08edc616252f95c7a7794e38818","expiresIn":3600,"scope":"default"}
+2021-06-03 Thursday 10:20:22  [INFO]:  querySingleDeviceInfo  5f537702-7d80-4037-bc71-efdb1635794b
+2021-06-03 Thursday 10:20:22  [INFO]:  querySingleDeviceInfo  imsi
+2021-06-03 Thursday 10:20:22  [INFO]:  querySingleDeviceInfo  None
+2021-06-03 Thursday 10:20:22  [INFO]:  querySingleDeviceInfo  bfd1ab70445bb5dc2ed751df5d6c6e
+2021-06-03 Thursday 10:20:22  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:20:22  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi HTTP/1.1" 200 None
+2021-06-03 Thursday 10:20:22  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi
+2021-06-03 Thursday 10:20:22  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer bfd1ab70445bb5dc2ed751df5d6c6e', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 10:20:22  [INFO]:  invokeAPI  None
+2021-06-03 Thursday 10:20:22  [INFO]:  invokeAPI  {"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T164558Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":1,"AirTemp":0,"AirHumidity":0,"LightIntensity":2607,"SoilHumidity":9300},"eventTime":"20210602T164557Z","serviceInfo":null}]}
+2021-06-03 Thursday 10:20:22  [INFO]:  queryDeviceDataHistory  <Python_SDK_Demo.com.huawei.iotplatform.client.dto.QueryDeviceDataHistoryInDTO.QueryDeviceDataHistoryInDTO object at 0x7f937008e3c8>
+2021-06-03 Thursday 10:20:22  [INFO]:  queryDeviceDataHistory  bfd1ab70445bb5dc2ed751df5d6c6e
+2021-06-03 Thursday 10:20:22  [INFO]:  queryDeviceDataHistory  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}
+2021-06-03 Thursday 10:20:22  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 10:20:23  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/data/v1.2.0/deviceDataHistory?deviceId=5f537702-7d80-4037-bc71-efdb1635794b&gatewayId=5f537702-7d80-4037-bc71-efdb1635794b&pageSize=2000 HTTP/1.1" 200 None
+2021-06-03 Thursday 10:20:23  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/data/v1.2.0/deviceDataHistory
+2021-06-03 Thursday 10:20:23  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer bfd1ab70445bb5dc2ed751df5d6c6e', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 10:20:23  [INFO]:  invokeAPI  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}

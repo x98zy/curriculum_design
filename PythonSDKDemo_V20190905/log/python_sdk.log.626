@@ -1,0 +1,4 @@
+2021-05-30 Sunday 18:53:28  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-31 Monday 04:07:18  [WARNING]:  log_response  Not Found: /
+2021-05-31 Monday 10:43:17  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-06-01 Tuesday 16:45:19  [WARNING]:  log_response  Not Found: /favicon.ico

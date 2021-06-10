@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>{% block title %}首页{% endblock %}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css1/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css1/font-awesome.css" rel="stylesheet">
+<link href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css1/style_index.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css1/lightbox.css">
+<link rel="stylesheet" type="text/css" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css1/menu_topexpand.css" />
+<link href="http://fonts.googleapis.com/css?family=Courgette&amp;subset=latin-ext" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+{% block css %}{% endblock %}
+{% block js %}{% endblock %}
+</head>
+<body>
+<div class="slider">
+	<div class="header-bottom">
+		<div class="top-nav menu-wrap">
+		<nav class="menu">
+			<div class="icon-list">
+				<a href="{% url 'index' %}"><i class="glyphicon glyphicon-home"></i><span>首页</span></a>
+				<a href="{% url 'device:list' %}"><i class="glyphicon glyphicon-info-sign"></i><span>设备管理</span></a>
+				<a href="{% url 'device:videoplay' %}" ><i class="glyphicon glyphicon-cog"></i><span>监控大厅</span></a>
+				<a href="{% url 'displayvideo' %}" ><i class="glyphicon glyphicon-user"></i><span>视频展示</span></a>
+				<a href="{% url 'product_introduction' %}"><i class="glyphicon glyphicon-picture"></i><span>产品介绍</span></a>
+				<a href="{% url 'users:concat_us' %}" ><i class="glyphicon glyphicon-envelope"></i><span>联系我们</span></a>
+			</div>
+		</nav>
+	</div>
+	<button class="menu-button" id="open-button"></button> 
+
+		<div class="clearfix"> </div>
+		<h1><a href="{% url 'index' %}" class="w3l-logo"><i class="fa fa-pagelines" aria-hidden="true"></i><span>智慧 农园</span></a></h1>
+		<div class="w3layouts_header_right">
+            {% if request.user.is_authenticated %}
+                <div class="col-lg-7" style="padding-left: 200px" >
+                <div class="right">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle"
+                               data-toggle="dropdown"
+                               style="height: 80px">
+                                <img alt="" class="img-circle" src="https://www.iotweb.site/media/{{ MEDIA_URL }}{{ request.user.image }}" width="38px" height="38px"/>
+                                <span style="color: #FFFFFF;font-size: 15px">
+                                <i>{{ request.user.username }}</i>
+                            </span>
+                            </a>
+                            <div class="dropdown-menu pull-right"
+                                 style="background: #FFFFFF;width: 250px;overflow: hidden">
+                                <div style="margin-top: 16px;border-bottom: 1px solid #eeeeee">
+                                    <div style="text-align: center">
+                                        <img class="img-circle" src="https://www.iotweb.site/media/{{ MEDIA_URL }}{{ request.user.image }}"
+                                             style="width: 38px;height: 38px;"/>
+                                    </div>
+                                    <div style="color: #323534;text-align: center;line-height: 36px;font-size: 15px">
+                                        <span>{{ request.user.username }}</span>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="margin-left: 15px;margin-right: 15px;margin-top: 10px">
+                                    <div class="col-md-4 text-center grid" style="margin-left: 20px">
+                                        <i class="fa fa-gear" style="font-size: 25px;line-height: 45px;"></i>
+                                        <p style="padding: 0px;margin-top: 6px;margin-bottom: 10px;font-size: 12px">
+                                            <a href="{% url 'users:manage_account' %}" style="text-decoration: none">账号管理</a></p>
+                                    </div>
+                                    <div class="col-md-4 text-center grid" style="margin-left: 30px">
+                                        <i class="fa fa-heart-o" style="font-size: 25px;line-height: 45px;"></i>
+                                         <a href="{% url "uploadvideo" %}" style="text-decoration: none">
+						 <p style="padding: 0px;margin-top: 6px;margin-bottom: 10px;font-size: 12px">上传视频</p>
+				         </a>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 20px">
+                                    <div class="text-center"
+                                         style="padding: 15px;margin: 0px;background: #f6f5f5;color: #323534;">
+                                        <i class="fa fa-sign-out"></i> <a href='{% url 'users:logout' %}' >退出登录</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            {% else %}
+                <div class="col-lg-7" style="padding-left: 50px" >
+                    <div class="right">
+                        <a class="nav-link" href="{% url 'users:login' %}" style="display: inline-block;font-size: 20px;">登录</a>
+                        <a class="nav-link" href="{% url 'users:login' %}" style="display: inline-block;font-size: 20px;">注册</a>
+                    </div>
+                </div>
+            {% endif %}
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	{% block background %}<div class="callbacks_container">
+		<ul class="rslides" id="slider3">
+			<li>
+				<div class="slider-info">
+					<h3>智慧监控平台</h3>
+					<p>提供南酸枣生长智能监控</p>
+					<div class="readmore-w3"><a class="readmore" href="#" data-toggle="modal" data-target="#myModal2">了解更多</a></div>
+				</div>
+			</li>
+			<li>
+				<div class="slider-info">
+					<h3>智慧监控平台</h3>
+					<p>提供南酸枣生长智能监控</p>
+					<div class="readmore-w3"><a class="readmore" href="#" data-toggle="modal" data-target="#myModal2">了解更多</a></div>
+				</div>
+			</li>
+			<li>
+				<div class="slider-info">
+					<h3>智慧监控平台</h3>
+					<p>提供南酸枣生长智能监控</p>
+					<div class="readmore-w3"><a class="readmore" href="#" data-toggle="modal" data-target="#myModal2">了解更多</a></div>
+				</div>
+			</li>
+		</ul>
+	</div>{% endblock %}
+	<div class="clearfix"></div>
+</div>
+{% block content %}
+<div class="about w3layouts-agileinfo" id="about">
+	<div class="container">
+		<h3 class="agile-title">欢迎</h3>
+		<div class="about-top w3ls-agile">
+			<div class="col-md-6 red">
+				<img class="img-responsive" src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/a.png" alt="">
+			</div>
+			<div class="col-md-6 come">
+				<div class="about-wel">
+					<h2>关于我们</h2>
+					<p style="font-size: large">专注于智慧农业，结合现代物联网技术，提供农场品生长环境监测平台</p>
+						<ul>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>智能设备管理</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>实时视频监控</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>远程智能控制</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>农产品数据分析</li>
+						</ul>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<div class="sevices-w3layouts" id="services">
+	<div class="container">
+		<h3 class="agile-title">我们的服务</h3>
+		<div class="services-main">
+			<div class="col-md-3 sevices-w3layouts-grids wow fadeInUp animated" data-wow-delay=".5s">
+				<h5>服务1</h5>
+				<p>通过PC端直接远程控制硬件设备</p>
+				<div class="sevices-w3layouts-img c1">
+					<i class="fa fa-laptop" aria-hidden="true"></i>
+					<p>远程控制</p>
+				</div>
+			</div>
+			<div class="col-md-3 sevices-w3layouts-grids sevices-w3layouts-mdl1 wow fadeInUp animated" data-wow-delay=".5s">
+				<h5>服务2</h5>
+				<p>实时农产品生长环境监测，省时省力</p>
+				<div class="sevices-w3layouts-img c3">
+					<i class="fa fa-tree" aria-hidden="true"></i>
+					<p>环境监测</p>
+				</div>
+			</div>
+			<div class="col-md-3 sevices-w3layouts-grids wow fadeInUp animated" data-wow-delay=".5s">
+				<h5>服务3</h5>
+				<p>及时推送设备信息，方便快捷</p>
+				<div class="sevices-w3layouts-img c4">
+					<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+					<p>数据推送</p>
+				</div>
+			</div>
+			<div class="col-md-3 sevices-w3layouts-grids sevices-w3layouts-mdl wow fadeInUp animated" data-wow-delay=".5s">
+				<h5>服务4</h5>
+				<p>将产品数据进行汇总分析，准确迅捷</p>
+				<div class="sevices-w3layouts-img c2">
+					<i class="fa fa-truck" aria-hidden="true"></i>
+					<p>数据分析</p>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<div class="blog" id="blog">
+	<div class="container">
+	<h3 class="agile-title">最近新闻</h3>
+        <div class="col-lg-12">
+            <ul style="list-style: none">
+                {% for single_res in res %}
+                    <li class="col-lg-8 col-lg-offset-2" style="float: left;display: block;font-size: large;margin-bottom: 10px"><a href={{ single_res.url }}>{{ single_res.title }}</a></li>
+                    <li class="col-lg-2 " style="float: left;display: block;font-size: large;margin-bottom: 10px">{{ single_res.date|slice:"3:-5" }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+	</div>
+</div>
+<!-- Modal2 -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+	<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4>Green Farm</h4>
+				<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/n2.jpg" alt=" " class="img-responsive">
+				<h5>Sed ut perspiciatis unde omnis iste natus</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+	<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4>Green Farm</h4>
+				<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/n3.jpg" alt=" " class="img-responsive">
+				<h5>Sed ut perspiciatis unde omnis iste natus</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+	<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4>Green Farm</h4>
+				<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/n1.jpg" alt=" " class="img-responsive">
+				<h5>Sed ut perspiciatis unde omnis iste natus</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="gallery" class="gallery">
+	<div class="container">
+		<h3 class="agile-title">产品展示</h3>
+		<div class="gallery-info">
+			<div class="col-md-5 gallery-grids">
+				<a href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g1.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g1.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grids">
+				<a href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g2.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g2.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-3 gallery-grids">
+				<a href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g3.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g3.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-3 gallery-grids grid-mdl">
+				<a href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g4.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g4.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grids grid-mdl">
+				<a href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g7.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g7.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-5 gallery-grids grid-mdl">
+				<a href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g6.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g6.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-6 gallery-grids grid-mdl">
+				<a href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g5.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g5.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-6 gallery-grids grid-mdl">
+				<a href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g8.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/g8.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+	</div>
+</div>
+<div class="team agileits" id="team">
+	<div class="team-info">
+		<div class="container">
+			<h3 class="agile-title">我们的团队</h3>
+			<div class="team-row">
+				<div class="col-md-3 team-grids">
+					<div class="team-agile-img"> 
+						<a href="#"><img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/team.jpg" alt="img"></a>
+						<div class="view-caption">
+							<div class="w3ls-info">
+								<h4>黄德昌</h4>
+							</div>
+							<ul>
+								<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+								<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+								<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+							</ul>
+						</div>    
+					</div>
+				</div>					
+				<div class="col-md-3 team-grids">
+					<div class="team-agile-img"> 
+						<a href="#"><img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/team.jpg" alt="img"></a>
+						<div class="view-caption">
+							<div class="w3ls-info">
+								<h4>黄德昌 </h4>
+							</div>
+							<ul>
+								<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+								<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+								<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+							</ul>
+						</div>    
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="team-agile-img"> 
+						<a href="#"><img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/team.jpg" alt="img"></a>
+						<div class="view-caption">
+							<div class="w3ls-info">
+								<h4>黄德昌</h4>
+							</div>
+							<ul>
+								<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+								<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+								<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+							</ul>
+						</div>    
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="team-agile-img"> 
+						<a href="#"><img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/team.jpg" alt="img"></a>
+						<div class="view-caption">
+							<div class="w3ls-info">
+								<h4>黄德昌</h4>
+							</div>
+							<ul>
+								<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+								<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+								<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+							</ul>
+						</div>    
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="agileits_w3layouts_contact" id="contact">
+	<div class="container"> 
+		<h3 class="agile-title">联系我们</h3>
+		<div class="w3_mail_grids">
+			<form id="jsbtnform">
+				<div class="col-md-6 col-xs-6 cont-editw32">
+					<input type="text" name="name" placeholder="姓名" />
+					<input type="email" name="email" placeholder="邮箱" />
+				</div>
+				<div class="col-md-6 col-xs-6 cont-editw3l">
+					<input type="text" name="subject" placeholder="留言主题" />
+					<input type="text" name="phone" placeholder="电话" />
+				</div>
+				<textarea name="message" placeholder="内容..." ></textarea>
+                <p class="error company-tips" id="jsCompanyTips"></p>
+				<input type="button" value="提交" id="jsbtn" style="margin: 0 auto;display: block">
+                {% csrf_token %}
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
+<div class="footer_bottom section">
+	<div class="agileits-w3layouts-footer">
+		<div class="container">
+			<div class="col-md-4 w3-agile-grid">
+				<h5>关于我们</h5>
+				<p>我们专注于智慧农业生产，因为专注，所以更优秀</p>
+				   <div class="w3_agileits_social_media team_agile_w3l team footer">
+							<ul class="social-icons3">
+								
+								<li><a href="#" class="wthree_facebook"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="wthree_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="wthree_behance"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>		
+			</div>
+			<div class="col-md-4 w3-agile-grid">
+				<h5>最近新闻</h5>
+				<div class="w3ls-post-grids">
+					<div class="w3ls-post-grid">
+						<div class="w3ls-post-img">
+							<a href="#" data-toggle="modal" data-target="#myModal3"><img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/f1.jpg" alt="" /></a>
+						</div>
+						<div class="w3ls-post-info">
+							<h6><a href="#" data-toggle="modal" data-target="#myModal3">新型乡村发展</a></h6>
+							<p>3 24,2021</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3ls-post-grid">
+						<div class="w3ls-post-img">
+							<a href="#" data-toggle="modal" data-target="#myModal3"><img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/f3.jpg" alt="" /></a>
+						</div>
+						<div class="w3ls-post-info">
+							<h6><a href="#" data-toggle="modal" data-target="#myModal3">农业物联网</a></h6>
+							<p>3 25,2021</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3ls-post-grid">
+						<div class="w3ls-post-img">
+							<a href="#" data-toggle="modal" data-target="#myModal3"><img src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/f2.jpg" alt="" /></a>
+						</div>
+						<div class="w3ls-post-info">
+							<h6><a href="#" data-toggle="modal" data-target="#myModal3">我国新农业</a></h6>
+							<p>4 06,2021</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w3-agile-grid">
+				<h5>联系我们</h5>
+				<div class="w3-address">
+					<div class="w3-address-grid">
+						<div class="w3-address-left">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</div>
+						<div class="w3-address-right">
+							<h6>电话</h6>
+							<p>+1 234 567 8901</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3-address-grid">
+						<div class="w3-address-left">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="w3-address-right">
+							<h6>邮箱</h6>
+							<p>Email :<a href="mailto:example@email.com"> 1580987871@qq.com</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3-address-grid">
+						<div class="w3-address-left">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="w3-address-right">
+							<h6>地址</h6>
+							<p>江西南昌
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="copyright">
+		   <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/"></a></p>
+	</div>
+</div>
+<script type="text/javascript" src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/jquery-2.1.4.min.js"></script>
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/lightbox-plus-jquery.min.js"></script>
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/jquery.gauge.js"></script>
+<script>
+$(document).ready(function (){
+	$("#gauge1").gauge(30,{color: "#FEC606",unit: " %",type: "halfcircle"});
+	$("#gauge2").gauge(70, {color: "#FD5B03", unit: " %",type: "halfcircle"});
+	$("#gauge3").gauge(75, {color: "#2C82C9",unit: " %",type: "halfcircle"});
+});
+</script> 
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/responsiveslides.min.js"></script>
+<script>
+// You can also use "$(window).load(function() {"
+$(function () {
+  // Slideshow 3
+  $("#slider3").responsiveSlides({
+	auto: true,
+	pager:true,
+	nav:true,
+	speed: 500,
+	namespace: "callbacks",
+	before: function () {
+	  $('.events').append("<li>before event fired.</li>");
+	},
+	after: function () {
+	  $('.events').append("<li>after event fired.</li>");
+	}
+  });
+
+});
+</script>
+<link href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css1/owl.carousel.css" rel="stylesheet">
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/owl.carousel.js"></script>
+<script>
+$(document).ready(function() {
+  $("#owl-demo").owlCarousel({
+	items : 1,
+	lazyLoad : true,
+	autoPlay : false,
+	navigation : true,
+	navigationText : true,
+	pagination : true,
+  });
+});
+</script>
+<script type="text/javascript" src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/move-top.js"></script>
+<script type="text/javascript" src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/easing.js"></script>
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+		};
+		*/
+		
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		
+	});
+</script>
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/bootstrap.js"></script>
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/classie.js"></script>
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/main.js"></script>
+
+
+<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+        $(function () {
+        $(".dropdown").mouseover(function () {
+            $(this).addClass("open");
+        });
+
+        $(".dropdown").mouseleave(function () {
+            $(this).removeClass("open");
+        })
+    })
+    </script>
+<script>
+    $(function () {
+        $('#jsbtn').on('click',function () {
+            $.ajax({
+                cache:false,
+                type:'POST',
+                url:"{% url "users:add_message" %}",
+                data:$('#jsbtnform').serialize(),
+                async:true,
+                success:function (data) {
+                    if(data.status=="success"){
+                        $('#jsbtnform')[0].reset();
+                        alert("感谢您的留言")
+                    }
+                    else if(data.status=='fail'){
+                        $('#jsbtnform')[0].reset();
+                        alert("表单填写错误")
+                    }
+                },
+            });
+        });
+    })
+</script>
+</body>
+</html>

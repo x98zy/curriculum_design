@@ -1,0 +1,103 @@
+2021-06-02 Wednesday 21:24:21  [INFO]:  put_object  put object, url=:https://first-1257059002.cos.ap-nanjing.myqcloud.com/video/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82%E6%B7%B7%E6%B5%81%20%E6%B1%9F%E8%A5%BF%E7%89%B9%E4%BA%A7%E7%BE%8E%E9%A3%9F%EF%BC%8C%E5%8D%97%2B%E6%B1%9F%E8%A5%BF%E7%89%B9%E4%BA%A7%E7%BE%8E%E9%A3%9F%EF%BC%8C%E5%8D%97.mp4 ,headers=:{'x-cos-storage-class': 'STANDARD'}
+2021-06-02 Wednesday 21:24:22  [DEBUG]:  __call__  format str: put
+/video/格式工厂混流 江西特产美食，南+江西特产美食，南.mp4
+
+x-cos-storage-class=STANDARD
+
+2021-06-02 Wednesday 21:24:22  [DEBUG]:  __call__  str_to_sign: sha1
+1622640202;1622650262
+8c4e469debc696e439a0fd9a1ebcd5cd7b38a6ce
+
+2021-06-02 Wednesday 21:24:22  [DEBUG]:  __call__  sign_key: d5b052fad0fedc0d25e0a103f9199c943efdcff7
+2021-06-02 Wednesday 21:24:22  [DEBUG]:  __call__  sign: 4b9aee7838745785017227707750b068c63c4b4c
+2021-06-02 Wednesday 21:24:22  [DEBUG]:  __call__  sign_keyd5b052fad0fedc0d25e0a103f9199c943efdcff7
+2021-06-02 Wednesday 21:24:22  [DEBUG]:  __call__  q-sign-algorithm=sha1&q-ak=AKIDToywiHcoslQr30iBQREqIWXJsCIAnDYo&q-sign-time=1622640202;1622650262&q-key-time=1622640202;1622650262&q-header-list=x-cos-storage-class&q-url-param-list=&q-signature=4b9aee7838745785017227707750b068c63c4b4c
+2021-06-02 Wednesday 21:24:22  [DEBUG]:  __call__  request headers: {'User-Agent': b'cos-python-sdk-v5.1.9.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'x-cos-storage-class': b'STANDARD', 'Content-Length': '109533170', 'Authorization': 'q-sign-algorithm=sha1&q-ak=AKIDToywiHcoslQr30iBQREqIWXJsCIAnDYo&q-sign-time=1622640202;1622650262&q-key-time=1622640202;1622650262&q-header-list=x-cos-storage-class&q-url-param-list=&q-signature=4b9aee7838745785017227707750b068c63c4b4c'}
+2021-06-02 Wednesday 21:24:22  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): first-1257059002.cos.ap-nanjing.myqcloud.com:443
+2021-06-02 Wednesday 21:24:25  [DEBUG]:  _make_request  https://first-1257059002.cos.ap-nanjing.myqcloud.com:443 "PUT /video/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82%E6%B7%B7%E6%B5%81%20%E6%B1%9F%E8%A5%BF%E7%89%B9%E4%BA%A7%E7%BE%8E%E9%A3%9F%EF%BC%8C%E5%8D%97%2B%E6%B1%9F%E8%A5%BF%E7%89%B9%E4%BA%A7%E7%BE%8E%E9%A3%9F%EF%BC%8C%E5%8D%97.mp4 HTTP/1.1" 200 0
+2021-06-02 Wednesday 21:29:39  [INFO]:  put_object  put object, url=:https://first-1257059002.cos.ap-nanjing.myqcloud.com/video/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82%E6%B7%B7%E6%B5%81%20%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8D%97%E9%85%B8%E6%9E%A3%5B%2B%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8D%97%E9%85%B8%E6%9E%A3%5B.mp4 ,headers=:{'x-cos-storage-class': 'STANDARD'}
+2021-06-02 Wednesday 21:29:39  [DEBUG]:  __call__  format str: put
+/video/格式工厂混流 舌尖上的南酸枣[+舌尖上的南酸枣[.mp4
+
+x-cos-storage-class=STANDARD
+
+2021-06-02 Wednesday 21:29:39  [DEBUG]:  __call__  str_to_sign: sha1
+1622640519;1622650579
+08bf81cf40354917cb5207a839e8dcdcab155163
+
+2021-06-02 Wednesday 21:29:39  [DEBUG]:  __call__  sign_key: 30d3ee005223842e4ba1f89b93a16a28024ffef8
+2021-06-02 Wednesday 21:29:39  [DEBUG]:  __call__  sign: 678754f0f701480dca6ee03f4e0dcf0a69dcd7fb
+2021-06-02 Wednesday 21:29:39  [DEBUG]:  __call__  sign_key30d3ee005223842e4ba1f89b93a16a28024ffef8
+2021-06-02 Wednesday 21:29:39  [DEBUG]:  __call__  q-sign-algorithm=sha1&q-ak=AKIDToywiHcoslQr30iBQREqIWXJsCIAnDYo&q-sign-time=1622640519;1622650579&q-key-time=1622640519;1622650579&q-header-list=x-cos-storage-class&q-url-param-list=&q-signature=678754f0f701480dca6ee03f4e0dcf0a69dcd7fb
+2021-06-02 Wednesday 21:29:39  [DEBUG]:  __call__  request headers: {'User-Agent': b'cos-python-sdk-v5.1.9.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'x-cos-storage-class': b'STANDARD', 'Content-Length': '49673401', 'Authorization': 'q-sign-algorithm=sha1&q-ak=AKIDToywiHcoslQr30iBQREqIWXJsCIAnDYo&q-sign-time=1622640519;1622650579&q-key-time=1622640519;1622650579&q-header-list=x-cos-storage-class&q-url-param-list=&q-signature=678754f0f701480dca6ee03f4e0dcf0a69dcd7fb'}
+2021-06-02 Wednesday 21:29:39  [DEBUG]:  _get_conn  Resetting dropped connection: first-1257059002.cos.ap-nanjing.myqcloud.com
+2021-06-02 Wednesday 21:29:40  [DEBUG]:  _make_request  https://first-1257059002.cos.ap-nanjing.myqcloud.com:443 "PUT /video/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82%E6%B7%B7%E6%B5%81%20%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8D%97%E9%85%B8%E6%9E%A3%5B%2B%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%8D%97%E9%85%B8%E6%9E%A3%5B.mp4 HTTP/1.1" 200 0
+2021-06-02 Wednesday 21:29:53  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-06-02 Wednesday 21:29:53  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-06-02 Wednesday 21:29:53  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-06-02 Wednesday 21:36:22  [INFO]:  put_object  put object, url=:https://first-1257059002.cos.ap-nanjing.myqcloud.com/video/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82%E6%B7%B7%E6%B5%81%20%E5%8D%97%E9%85%B8%E6%9E%A3%E7%B3%95%E7%9A%84%E5%88%B6%E4%BD%9C%E6%96%B9%2B%E5%8D%97%E9%85%B8%E6%9E%A3%E7%B3%95%E7%9A%84%E5%88%B6%E4%BD%9C%E6%96%B9.mp4 ,headers=:{'x-cos-storage-class': 'STANDARD'}
+2021-06-02 Wednesday 21:36:22  [DEBUG]:  __call__  format str: put
+/video/格式工厂混流 南酸枣糕的制作方+南酸枣糕的制作方.mp4
+
+x-cos-storage-class=STANDARD
+
+2021-06-02 Wednesday 21:36:22  [DEBUG]:  __call__  str_to_sign: sha1
+1622640922;1622650982
+623ebe71e029f7333fe9386564ddadeefc1ee7b0
+
+2021-06-02 Wednesday 21:36:22  [DEBUG]:  __call__  sign_key: bf9a39c95c78ae1eceffa7739156a94ce4d53cd9
+2021-06-02 Wednesday 21:36:22  [DEBUG]:  __call__  sign: 7975e88e66276ac6bf7c1af94c542c040261723c
+2021-06-02 Wednesday 21:36:22  [DEBUG]:  __call__  sign_keybf9a39c95c78ae1eceffa7739156a94ce4d53cd9
+2021-06-02 Wednesday 21:36:22  [DEBUG]:  __call__  q-sign-algorithm=sha1&q-ak=AKIDToywiHcoslQr30iBQREqIWXJsCIAnDYo&q-sign-time=1622640922;1622650982&q-key-time=1622640922;1622650982&q-header-list=x-cos-storage-class&q-url-param-list=&q-signature=7975e88e66276ac6bf7c1af94c542c040261723c
+2021-06-02 Wednesday 21:36:22  [DEBUG]:  __call__  request headers: {'User-Agent': b'cos-python-sdk-v5.1.9.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'x-cos-storage-class': b'STANDARD', 'Content-Length': '49280391', 'Authorization': 'q-sign-algorithm=sha1&q-ak=AKIDToywiHcoslQr30iBQREqIWXJsCIAnDYo&q-sign-time=1622640922;1622650982&q-key-time=1622640922;1622650982&q-header-list=x-cos-storage-class&q-url-param-list=&q-signature=7975e88e66276ac6bf7c1af94c542c040261723c'}
+2021-06-02 Wednesday 21:36:22  [DEBUG]:  _get_conn  Resetting dropped connection: first-1257059002.cos.ap-nanjing.myqcloud.com
+2021-06-02 Wednesday 21:36:23  [DEBUG]:  _make_request  https://first-1257059002.cos.ap-nanjing.myqcloud.com:443 "PUT /video/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82%E6%B7%B7%E6%B5%81%20%E5%8D%97%E9%85%B8%E6%9E%A3%E7%B3%95%E7%9A%84%E5%88%B6%E4%BD%9C%E6%96%B9%2B%E5%8D%97%E9%85%B8%E6%9E%A3%E7%B3%95%E7%9A%84%E5%88%B6%E4%BD%9C%E6%96%B9.mp4 HTTP/1.1" 200 0
+2021-06-02 Wednesday 21:36:59  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-06-02 Wednesday 21:36:59  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-06-02 Wednesday 21:36:59  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-06-02 Wednesday 21:43:42  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:43:42  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-02 Wednesday 21:43:42  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-02 Wednesday 21:43:42  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:43:42  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 21:43:42  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-02 Wednesday 21:43:42  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-02 Wednesday 21:43:42  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-02 Wednesday 21:43:42  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:43:42  [INFO]:  invokeAPI2  {"accessToken":"79f624843a65861bff786f935d7ea6","tokenType":"bearer","refreshToken":"ea932f6eec3171dbdaaf66c2d36bbe32","expiresIn":3600,"scope":"default"}
+2021-06-02 Wednesday 21:43:42  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-06-02 Wednesday 21:43:42  [INFO]:  queryBatchDevicesInfo  79f624843a65861bff786f935d7ea6
+2021-06-02 Wednesday 21:43:42  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 21:43:42  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-06-02 Wednesday 21:43:42  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-06-02 Wednesday 21:43:42  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 79f624843a65861bff786f935d7ea6', 'Content-Type': 'application/json'}
+2021-06-02 Wednesday 21:43:42  [INFO]:  invokeAPI  None
+2021-06-02 Wednesday 21:43:42  [INFO]:  invokeAPI  {"totalCount":1,"pageNo":0,"pageSize":20,"devices":[{"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T134341Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":5,"AirTemp":48,"AirHumidity":0,"LightIntensity":2605,"SoilHumidity":9500},"eventTime":"20210602T134341Z","serviceInfo":null}]}]}
+2021-06-02 Wednesday 21:50:58  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:50:58  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-02 Wednesday 21:50:58  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-02 Wednesday 21:50:58  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:50:58  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 21:50:58  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-02 Wednesday 21:50:58  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-02 Wednesday 21:50:58  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-02 Wednesday 21:50:58  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:50:58  [INFO]:  invokeAPI2  {"accessToken":"d1d7982cf2a9feeae51c235821b0b019","tokenType":"bearer","refreshToken":"29d327e15acf2fb7ea4c1f39383588e","expiresIn":3600,"scope":"default"}
+2021-06-02 Wednesday 21:50:58  [INFO]:  querySingleDeviceInfo  5f537702-7d80-4037-bc71-efdb1635794b
+2021-06-02 Wednesday 21:50:58  [INFO]:  querySingleDeviceInfo  imsi
+2021-06-02 Wednesday 21:50:58  [INFO]:  querySingleDeviceInfo  None
+2021-06-02 Wednesday 21:50:58  [INFO]:  querySingleDeviceInfo  d1d7982cf2a9feeae51c235821b0b019
+2021-06-02 Wednesday 21:50:58  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 21:50:58  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi HTTP/1.1" 200 None
+2021-06-02 Wednesday 21:50:58  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi
+2021-06-02 Wednesday 21:50:58  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer d1d7982cf2a9feeae51c235821b0b019', 'Content-Type': 'application/json'}
+2021-06-02 Wednesday 21:50:58  [INFO]:  invokeAPI  None
+2021-06-02 Wednesday 21:50:58  [INFO]:  invokeAPI  {"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T135042Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":5,"AirTemp":48,"AirHumidity":0,"LightIntensity":2605,"SoilHumidity":9500},"eventTime":"20210602T135042Z","serviceInfo":null}]}
+2021-06-02 Wednesday 21:50:58  [INFO]:  queryDeviceDataHistory  <Python_SDK_Demo.com.huawei.iotplatform.client.dto.QueryDeviceDataHistoryInDTO.QueryDeviceDataHistoryInDTO object at 0x7fbb39d8acc0>
+2021-06-02 Wednesday 21:50:58  [INFO]:  queryDeviceDataHistory  d1d7982cf2a9feeae51c235821b0b019
+2021-06-02 Wednesday 21:50:58  [INFO]:  queryDeviceDataHistory  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}
+2021-06-02 Wednesday 21:50:58  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 21:50:59  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/data/v1.2.0/deviceDataHistory?deviceId=5f537702-7d80-4037-bc71-efdb1635794b&gatewayId=5f537702-7d80-4037-bc71-efdb1635794b&pageSize=2000 HTTP/1.1" 200 None
+2021-06-02 Wednesday 21:50:59  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/data/v1.2.0/deviceDataHistory
+2021-06-02 Wednesday 21:50:59  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer d1d7982cf2a9feeae51c235821b0b019', 'Content-Type': 'application/json'}
+2021-06-02 Wednesday 21:50:59  [INFO]:  invokeAPI  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}

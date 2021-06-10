@@ -1,0 +1,16 @@
+2021-05-05 Wednesday 13:57:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210430165057073/ HTTP/1.1" 200 6647
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210430164227870/ HTTP/1.1" 200 5191
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185948995/ HTTP/1.1" 200 4609
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185729712/ HTTP/1.1" 200 4538
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185422930/ HTTP/1.1" 200 5624
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423184817026/ HTTP/1.1" 200 6424
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423184203179/ HTTP/1.1" 200 4550
+2021-05-05 Wednesday 13:57:19  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-05 Wednesday 13:57:20  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423182437450/ HTTP/1.1" 200 5867

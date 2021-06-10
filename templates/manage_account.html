@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head design-width="750">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>账号管理</title>
+<link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css/manage_account.css" /><!--页面样式-->
+
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/auto-size.js"></script><!--设置字体大小-->
+
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/jquery.min.js"></script><!--设置字体大小-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+        function uploadFile(obj) {
+            var event=document.getElementById(obj);
+            event.click();
+        }
+        function getFullPath(obj) {
+            if (obj) {
+                if (obj.files) {
+                    return window.URL.createObjectURL(obj.files.item(0));
+                }
+                return obj.value;
+            }
+        }
+    </script>
+</head>
+<body>
+	<div class="mobile-wrap center mobile-wrap-mb">
+
+        <header>
+        	<span class="return">
+                <a href="{% url 'index' %}">返回</a>
+        	</span>
+        </header>
+        <main>
+        	<div class="inform">
+        		<h3>账号管理</h3>
+        		<div class="inform-list">
+        			<ul>
+        				<li class="acti">个人信息</li>
+        				<li>修改资料</li>
+        				<li>修改密码</li>
+        			</ul>
+        		</div>
+        		<div class="inform-text show">
+                    <form method="POST" action="{% url 'users:manage_account' %}" enctype="multipart/form-data">
+                        <p>
+                            <span>
+                                用户名
+                            </span>
+                            <input type="text" name="username" style="width: 450px" placeholder={{ request.user.username }} />
+        			    </p>
+                        {% if not request.user.telephone %}
+                              <p>
+                                    <span>
+                                        电话号
+                                    </span>
+                                    <input type="text" name="telephone" placeholder="尚未添加手机号" />
+                              </p>
+                        {% else %}
+                               <p>
+                                    <span>
+                                        电话号
+                                    </span>
+                                    <input type="text"  name="telephone" placeholder={{ request.user.telephone }} />
+                                </p>
+                        {% endif %}
+                        {% if not request.user.email %}
+                            <p>
+                                <span>
+                                     邮箱
+                                </span>
+                                <input type="text" name="email" placeholder="尚未添加邮箱"/>
+                            </p>
+                        {% else %}
+                             <p>
+                                <span>
+                                     邮箱
+                                </span>
+                                <input type="email" name="email" style="width: 450px" placeholder={{ request.user.email}} />
+                            </p>
+                        {% endif %}
+                        {% if  not request.user.nick_name %}
+                           <p>
+                                <span>
+                                    昵称
+                                </span>
+                                <input type="text" name="nick_name" placeholder="暂无昵称"/>
+                           </p>
+                        {% else %}
+                            <p>
+                                <span>
+                                    昵称
+                                </span>
+                                <input type="text" name="nick_name" style="width: 450px" placeholder={{ request.user.nick_name }}>
+                            </p>
+                        {% endif %}
+                         {% if  not request.user.image %}
+                           <p>
+                                <span>
+                                    暂无头像
+                                </span>
+                                <input type="file" name="image" placeholder="暂无头像"/>
+                           </p>
+                        {% else %}
+                             <input type="file" id="file1" name="image" style="display: none" onchange="document.getElementById('showPicture').src=getFullPath(this);" />
+                             <img id="showPicture" src="https://www.iotweb.site/media/{{ MEDIA_URL }}{{ request.user.image }}" onclick="uploadFile('file1')" style="border-radius: 50%;width: 20%;margin-left: 40%;margin-top: 20px">
+                        {% endif %}
+                        <h4>
+                            <input type="submit" name="" id="" value="确定修改" />
+                            <a href="#">遇到问题？</a>
+                        </h4>
+                        {% csrf_token %}
+                    </form>
+        		</div>
+        		<div class="inform-text">
+                    <form method="POST" action="{% url 'users:manage_info' %}">
+                        {% if not request.user.school %}
+                            <p>
+                            <span>
+                                学校 ：
+                            </span>
+                            <input type="text" name="school" style="width: 450px" placeholder="暂未添加" />
+                            </p>
+                        {% else %}
+                            <p>
+                            <span>
+                                学校 ：
+                            </span>
+                            <input type="text" name="school" style="width: 450px" placeholder={{ request.user.school }} />
+                            </p>
+                        {% endif %}
+                        {% if not request.user.major %}
+                            <p>
+                            <span>
+                                专业 ：
+                            </span>
+                            <input type="text" name="major" style="width: 450px" placeholder="暂未添加" />
+                            </p>
+                        {% else %}
+                            <p>
+                            <span>
+                                专业 ：
+                            </span>
+                            <input type="text" name="major" style="width: 450px" placeholder={{ request.user.major }} />
+                            </p>
+                        {% endif %}
+                        {% if not request.user.company %}
+                            <p>
+                            <span>
+                                公司 ：
+                            </span>
+                            <input type="text" name="company" style="width: 450px" placeholder="暂未添加" />
+                            </p>
+                        {% else %}
+                            <p>
+                            <span>
+                                公司 ：
+                            </span>
+                            <input type="text" name="company" style="width: 450px" placeholder={{ request.user.company }} />
+                            </p>
+                        {% endif %}
+                        {% if not request.user.my_desc %}
+                            <p>
+                            <span>
+                                自我简介 ：
+                            </span>
+                            <input type="text" name="my_desc" style="width: 450px;" placeholder="暂未添加" class="desc"/>
+                            </p>
+                        {% else %}
+                            <p>
+                            <span>
+                                自我简介 ：
+                            </span>
+                            <input type="text" name="my_desc" style="width: 450px;" placeholder={{ request.user.my_desc }} />
+                            </p>
+                        {% endif %}
+                        <h4>
+                            <input type="submit" name="" id="" value="确定修改" />
+                            <a href="#">遇到问题？</a>
+                        </h4>
+                    {% csrf_token %}
+                    </form>
+        		</div>
+        		<div class="inform-text">
+                    <form method="POST" action="{% url 'users:change_password' %}">
+                        <p>
+        				<span>
+        					原密码 ：
+        				</span>
+        				<input type="password" name="original_password"/>
+        			</p>
+                        <p>
+                            <span>
+                                新密码
+                            </span>
+                            <input type="password" name="password1" />
+                        </p>
+                        <p>
+                            <span>
+                                确认密码
+                            </span>
+                            <input type="password" name="password2" />
+                        </p>
+                        <h4>
+                            <input type="submit" name="" id="" value="确定修改" />
+                            <a href="#">遇到问题？</a>
+                        </h4>
+                        {% csrf_token %}
+                    </form>
+        		</div>
+        	</div>
+        </main>
+
+   </div>
+</body>
+
+<script type="text/javascript">
+	$('.inform-list ul li').click(function(){
+		var n=$(this).index();
+		$(this).addClass('acti').siblings().removeClass('acti');
+		$('.inform-text').fadeOut();
+		$('.inform-text').eq(n).fadeIn();
+	})
+</script>
+</html>

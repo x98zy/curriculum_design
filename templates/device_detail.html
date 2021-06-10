@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'index1.html' %}
+<head>
+    <meta charset="UTF-8">
+    {% block title %}设备数据{% endblock %}
+    {% block js %}
+        <script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/highcharts.js"></script>
+        <script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/jquery_again.min.js"></script>
+    {% endblock %}
+    {% block css %}
+         <style>
+             * {
+                 padding: 0;
+                 margin: 0;
+             }
+             .slider {
+                 background: none;
+                 min-height:120px;
+                 background-color: black;
+                 margin: 0 5px;
+             }
+             .main {
+                margin: 0 auto;
+                padding: 50px 0;
+                width: 1000px;
+                min-height: 400px;
+            }
+            table {
+                margin-bottom: 20px;
+                width: 100%;
+                border-collapse: collapse;
+                border: none;
+            }
+            table th, table td {
+                padding: 5px 10px;
+                border-color: #999;
+            }
+        </style>
+        <link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css/MyPaging.css">
+    {% endblock %}
+
+</head>
+{% block background %}{% endblock %}
+{% block content %}
+    <table border="1">
+            <tr>
+		    <th style="text-align: center;font-size: 20px">光照强度</th>
+                <th style="text-align: center;font-size: 20px">土壤湿度</th>
+                <th style="text-align: center;font-size: 20px">空气温度</th>
+                <th style="text-align: center;font-size: 20px">空气湿度</th>
+                <th style="text-align: center;font-size: 20px">发送时间</th>
+            </tr>
+            {% for dict_value,time in data %}
+                <tr>
+                {% for value in dict_value.values %}
+                    <td style="text-align: center;font-size: 20px" >{{ value }}</td>
+                {% endfor %}
+                    <td style="text-align: center;font-size: 20px">{{ time }}</td>
+                </tr>
+            {% endfor %}
+    </table>
+    <div id="container" style="max-width:800px;height:400px;margin: 0 auto"></div>
+    <script>
+        var chart = Highcharts.chart('container', {
+            title: {
+                text: '设备数据概览'
+            },
+            subtitle: {
+                text: '数据来源：华为物联网平台'
+            },
+            yAxis: {
+                title: {
+                    text: '流水'
+                }
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle'
+            },
+            plotOptions: {
+                series: {
+                    label: {
+                        connectorAllowed: false
+                    },
+                    pointStart: 2
+                }
+            },
+            series: [
+            {
+                name: '空气温度',
+                data: {{ AirTemp }},
+                color:"#ff0000"
+            },
+            {
+                name: '空气湿度',
+                data: {{ AirHumidity }}
+            },
+            {
+                name: '光照强度',
+                data: {{ LightIntensity }}
+            },
+            {
+                name: '土壤湿度',
+                data: {{ OilHumidity }}
+            },
+            ],
+            responsive: {
+                rules: [{
+                    condition: {
+                        maxWidth: 500
+                    },
+                    chartOptions: {
+                        legend: {
+                            layout: 'horizontal',
+                            align: 'center',
+                            verticalAlign: 'bottom'
+                        }
+                    }
+                }]
+            }
+        });
+    </script>
+{% endblock %}
+</html>

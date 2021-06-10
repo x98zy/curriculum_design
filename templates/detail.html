@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css/index.css">
+    <title>设备数据</title>
+    <script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/jquery-2.2.1.min.js"></script>
+    <script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/rem.js"></script>
+    <script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/echarts.min.js"></script>
+</head>
+<body>
+    <div class="t_container">
+        <header class="t_h_bg">
+	    <span style="float: left;margin-left: 40px"><a style="text-decoration: none" href="{% url 'device:list' %}">返回</a></span>
+	    <span style="float: left;margin-left: 600px">设备数据</span>
+        </header>
+        <main class="t_main">
+            <div style="width: 80%;margin:0 auto">
+                <table class="main_table t_btn8">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>时间</th>
+                            <th>光照强度</th>
+                            <th>土壤湿度</th>
+                            <th>空气温度</th>
+                            <th>空气湿度</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listbox">
+
+                    </tbody>
+                </table>
+                <nav style="width:100%;margin-top:20px";>
+                    <ul style="width:100%;display:flex;justify-content:space-between" >
+                        <li id="last" style="font-size: 20px; color: white">上一页</li>
+                        <li id="next" style="font-size: 20px; color: white">下一页</li>
+                        <li id="" style="font-size: 20px; color: white">共<span id='pages'></span>页</li>
+                        <li style="font-size: 20px; color: white">共<span id="num"></span></li>
+                        <li style="font-size: 20px; color: white">当前第<span id="currentNum" ></span>页</li>
+                        <li style="display: block;line-height: 5px">
+                            <select name="" id="select" >
+                                <option value="1">1</option>
+                                <option value="3"  selected = "selected">3</option>
+                                <option value="5" >5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                            </select></li>
+                            <li id="first" style="font-size: 20px;color: white">首页</li>
+                            <li id="end" style="font-size: 20px; color: white">尾页</li>
+                        </ul>
+                    </nav>
+		         </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span></span>
+                    <span class="t_number">光照强度</span>
+                </header>
+                <div id="chart_1" class="echart" style="width: 100%; height: 2.4rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span></span>
+                    <span class="t_number">土壤湿度</span>
+                </header>
+                <div id="chart_2" class="echart" style="width: 100%; height: 2.4rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span></span>
+                    <span class="t_number">空气温度</span>
+                </header>
+                <div id="chart_3" class="echart" style="width: 100%; height: 2.4rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span></span>
+                    <span class="t_number">空气湿度</span>
+                </header>
+                <div id="chart_4" class="echart" style="width: 100%; height: 2.4rem;"></div>
+            </div>
+        </main>
+    </div>
+</body>
+<script>
+    $(function () {
+    echart_1();
+    echart_2();
+    echart_3();
+    echart_4();
+
+    function echart_1() {
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('chart_1'));
+        var xAxisData =[];
+        var legendData = ['光照强度'];
+        var title = "光照强度";//标题
+        var serieData = [];
+        var temp={{ AirTemp }};
+        var metaDate = [{{ AirTemp }}];
+        for (var k=0;k<50;k++){
+            xAxisData.push(String(k))
+        }
+        for (var v = 0; v <50; v++) {
+            var serie = {
+                name: legendData[v],
+                type: 'line',
+                symbol: "circle",
+                symbolSize: 10,
+                data: metaDate[v]
+            };
+            serieData.push(serie);
+        }
+        var colors = ["#036BC8", "#FFF", "#5EBEFC", "#2EF7F3"];
+        var option = {
+            // backgroundColor: '#0f375f',
+            title: {
+                text: title,
+                textAlign: 'left',
+                textStyle: {
+                    color: "#fff",
+                    fontSize: "12",
+                    fontWeight: "bold"
+                }
+            },
+            legend: {
+                show: true,
+                left: "center",
+                data: legendData,
+                y: "5%",
+                itemWidth: 18,
+                itemHeight: 12,
+                textStyle: {
+                    color: "#fff",
+                    fontSize: 14
+                },
+            },
+            toolbox: {
+                orient: 'vertical',
+                right: '1%',
+                top: '20%',
+                iconStyle: {
+                    color: '#fff',
+                    borderColor: '#fff',
+                    borderWidth: 1,
+                },
+                feature: {
+                    saveAsImage: {},
+                    magicType: {
+                        // show: true,
+                        type: ['line','bar','stack','tiled']
+                    }
+                }
+            },
+            color: colors,
+            grid: {
+                left: '2%',
+                top: "12%",
+                bottom: "5%",
+                right: "5%",
+                containLabel: true
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                },
+            },
+            xAxis: [{
+                type: 'category',
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#6173A3'
+                    }
+                },
+                axisLabel: {
+                    interval: 0,
+                    textStyle: {
+                        color: '#9ea7c4',
+                        fontSize: 12
+                    }
+                },
+                axisTick: {
+                    show: false
+                },
+                data: xAxisData,
+            }, ],
+            yAxis: [{
+                axisTick: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                axisLabel: {
+                    textStyle: {
+                        color: '#9ea7c4',
+                        fontSize: 12
+                    }
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#6173A3'
+                    }
+                },
+            }, ],
+            series: serieData
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+        window.addEventListener("resize", function () {
+            myChart.resize();
+        });
+    }
+
+    function echart_2() {
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('chart_2'));
+        var xAxisData = [];
+        var legendData = ['土壤湿度'];
+        var title = "土壤湿度";//标题
+        var serieData = [];
+        var temp={{ AirHumidity }};
+        var metaDate = [{{ AirHumidity }}];
+        for (var k=0;k<50;k++){
+            xAxisData.push(String(k))
+        }
+        for (var v = 0; v <50; v++) {
+            var serie = {
+                name: legendData[v],
+                type: 'line',
+                symbol: "circle",
+                symbolSize: 10,
+                data: metaDate[v]
+            };
+            serieData.push(serie);
+        }
+        var colors = ["#036BC8", "#FFF", "#5EBEFC", "#2EF7F3"];
+        var option = {
+            // backgroundColor: '#0f375f',
+            title: {
+                text: title,
+                textAlign: 'left',
+                textStyle: {
+                    color: "#fff",
+                    fontSize: "12",
+                    fontWeight: "bold"
+                }
+            },
+            legend: {
+                show: true,
+                left: "center",
+                data: legendData,
+                y: "5%",
+                itemWidth: 18,
+                itemHeight: 12,
+                textStyle: {
+                    color: "#fff",
+                    fontSize: 14
+                },
+            },
+            toolbox: {
+                orient: 'vertical',
+                right: '1%',
+                top: '20%',
+                iconStyle: {
+                    color: '#fff',
+                    borderColor: '#fff',
+                    borderWidth: 1,
+                },
+                feature: {
+                    saveAsImage: {},
+                    magicType: {
+                        // show: true,
+                        type: ['line','bar','stack','tiled']
+                    }
+                }
+            },
+            color: colors,
+            grid: {
+                left: '2%',
+                top: "12%",
+                bottom: "5%",
+                right: "5%",
+                containLabel: true
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                },
+            },
+            xAxis: [{
+                type: 'category',
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#6173A3'
+                    }
+                },
+                axisLabel: {
+                    interval: 0,
+                    textStyle: {
+                        color: '#9ea7c4',
+                        fontSize: 12
+                    }
+                },
+                axisTick: {
+                    show: false
+                },
+                data: xAxisData,
+            }, ],
+            yAxis: [{
+                axisTick: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                axisLabel: {
+                    textStyle: {
+                        color: '#9ea7c4',
+                        fontSize: 12
+                    }
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#6173A3'
+                    }
+                },
+            }, ],
+            series: serieData
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+        window.addEventListener("resize", function () {
+            myChart.resize();
+        });
+    }
+
+    function echart_3() {
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('chart_3'));
+        var xAxisData = [];
+        var legendData = ['空气温度'];
+        var title = "空气温度";//标题
+        var serieData = [];
+        var temp={{ LightIntensity }};
+        var metaDate = [{{ LightIntensity }}];
+        for (var k=0;k<50;k++){
+            xAxisData.push(String(k))
+        }
+        for (var v = 0; v <50; v++) {
+            var serie = {
+                name: legendData[v],
+                type: 'line',
+                symbol: "circle",
+                symbolSize: 10,
+                data: metaDate[v]
+            };
+            serieData.push(serie);
+        }
+        var colors = ["#036BC8", "#FFF", "#5EBEFC", "#2EF7F3"];
+        var option = {
+            // backgroundColor: '#0f375f',
+            title: {
+                text: title,
+                textAlign: 'left',
+                textStyle: {
+                    color: "#fff",
+                    fontSize: "12",
+                    fontWeight: "bold"
+                }
+            },
+            legend: {
+                show: true,
+                left: "center",
+                data: legendData,
+                y: "5%",
+                itemWidth: 18,
+                itemHeight: 12,
+                textStyle: {
+                    color: "#fff",
+                    fontSize: 14
+                },
+            },
+            toolbox: {
+                orient: 'vertical',
+                right: '1%',
+                top: '20%',
+                iconStyle: {
+                    color: '#fff',
+                    borderColor: '#fff',
+                    borderWidth: 1,
+                },
+                feature: {
+                    saveAsImage: {},
+                    magicType: {
+                        // show: true,
+                        type: ['line','bar','stack','tiled']
+                    }
+                }
+            },
+            color: colors,
+            grid: {
+                left: '2%',
+                top: "20%",
+                bottom: "5%",
+                right: "5%",
+                containLabel: true
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                },
+            },
+            xAxis: [{
+                type: 'category',
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#6173A3'
+                    }
+                },
+                axisLabel: {
+                    interval: 0,
+                    textStyle: {
+                        color: '#9ea7c4',
+                        fontSize: 12
+                    }
+                },
+                axisTick: {
+                    show: false
+                },
+                data: xAxisData,
+            }, ],
+            yAxis: [{
+                axisTick: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                axisLabel: {
+                    textStyle: {
+                        color: '#9ea7c4',
+                        fontSize: 12
+                    }
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#6173A3'
+                    }
+                },
+            }, ],
+            series: serieData
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+        window.addEventListener("resize", function () {
+            myChart.resize();
+        });
+    }
+
+    function echart_4() {
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('chart_4'));
+        var xAxisData = [];
+        var legendData = ['空气湿度'];
+        var title = "空气湿度";//标题
+        var serieData = [];
+        var temp={{ OilHumidity }};
+        var metaDate = [{{ OilHumidity }}];
+        for (var k=0;k<50;k++){
+            xAxisData.push(String(k))
+        }
+        for (var v = 0; v <50; v++) {
+            var serie = {
+                name: legendData[v],
+                type: 'line',
+                symbol: "circle",
+                symbolSize: 10,
+                data: metaDate[v]
+            };
+            serieData.push(serie);
+        }
+        var colors = ["#036BC8", "#FFF", "#5EBEFC", "#2EF7F3"];
+        var option = {
+            // backgroundColor: '#0f375f',
+            title: {
+                text: title,
+                textAlign: 'left',
+                textStyle: {
+                    color: "#fff",
+                    fontSize: "12",
+                    fontWeight: "bold"
+                }
+            },
+            legend: {
+                show: true,
+                left: "center",
+                data: legendData,
+                y: "5%",
+                itemWidth: 18,
+                itemHeight: 12,
+                textStyle: {
+                    color: "#fff",
+                    fontSize: 14
+                },
+            },
+            toolbox: {
+                orient: 'vertical',
+                right: '1%',
+                top: '20%',
+                iconStyle: {
+                    color: '#fff',
+                    borderColor: '#fff',
+                    borderWidth: 1,
+                },
+                feature: {
+                    saveAsImage: {},
+                    magicType: {
+                        // show: true,
+                        type: ['line','bar','stack','tiled']
+                    }
+                }
+            },
+            color: colors,
+            grid: {
+                left: '2%',
+                top: "20%",
+                bottom: "5%",
+                right: "5%",
+                containLabel: true
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                },
+            },
+            xAxis: [{
+                type: 'category',
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#6173A3'
+                    }
+                },
+                axisLabel: {
+                    interval: 0,
+                    textStyle: {
+                        color: '#9ea7c4',
+                        fontSize: 12
+                    }
+                },
+                axisTick: {
+                    show: false
+                },
+                data: xAxisData,
+            }, ],
+            yAxis: [{
+                axisTick: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                axisLabel: {
+                    textStyle: {
+                        color: '#9ea7c4',
+                        fontSize: 12
+                    }
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#6173A3'
+                    }
+                },
+            }, ],
+            series: serieData
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+        window.addEventListener("resize", function () {
+            myChart.resize();
+        });
+    }
+});
+</script>
+<script>    var temp={{ AirTemp }};
+            var row=[];
+            for(var i=0;i<temp.length;i++){
+                var dict={};
+                dict["Id"]=i;
+                dict["time_data"]={{ time_data|safe }}[i];
+                dict["AirTemp"]={{ AirTemp }}[i];
+                dict["AirHumidity"]={{ AirHumidity }}[i];
+                dict["LightIntensity"]={{ LightIntensity }}[i];
+                dict["OilHumidity"]={{ OilHumidity }}[i];
+                row.push(dict)
+            }
+			var data = {
+				rows: row,
+			};
+			var current = 1;
+			function pageInit(currentPage,pagesize){
+			current = currentPage;//将当前页存储全局变量
+			pageCount = Math.ceil(data.rows.length / pagesize);//一共分多少页
+			currentNum.innerHTML = currentPage;
+			num.innerHTML = data.rows.length +"条";
+			pages.innerHTML = pageCount;
+			var startRow = (currentPage - 1) * pagesize;//开始显示的行
+			var endRow = currentPage * pagesize - 1;//结束显示的行
+			var endRow = (endRow > data.rows.length) ? data.rows.length : endRow;//如果结束行数大于总数目，显示总数目，否则结束行
+			var html = "";
+			for(var i = 0; i < data.rows.length; i++){
+						if(i >= startRow && i <= endRow ){//通过间隔分隔数组
+							html += "<tr>\
+							<td>"+data.rows[i].Id+"</td>\
+							<td>"+data.rows[i].time_data+"</td>\
+							<td>"+data.rows[i].AirTemp+' lx'+"</td>\
+							<td>"+data.rows[i].AirHumidity+' %RH'+"</td>\
+							<td>"+data.rows[i].LightIntensity+' ℃'+"</td>\
+							<td>"+data.rows[i].OilHumidity+' %RH'+"</td>\
+						</tr>"
+					}
+				}
+
+				listbox.innerHTML = html;
+			}
+
+			select.onchange = function(ev){
+				pageInit(1,this.value)
+			}
+			first.onclick = function(){
+				pageInit(1,select.value)
+			}
+			end.onclick = function(){
+				pageInit(pageCount,select.value)
+			}
+
+			next.onclick = function(){
+				var curr = current +1;
+				if(curr>pageCount){
+					return
+				}
+				pageInit(curr,select.value)
+			}
+
+			last.onclick =function(){
+				var curr = current - 1;
+				if(curr<1){
+					return
+				}
+				pageInit(curr,select.value)
+			}
+			pageInit(1,3)
+
+		</script>
+</html>

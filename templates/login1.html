@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>登录注册</title>
+
+<link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com//css1/style.css">
+
+</head>
+<body>
+
+<div class="materialContainer">
+	<div class="box">
+        <span>绿色农场</span>
+		<div class="title">登录</div>
+        <form method="post" action="{% url 'users:login' %}">
+            <div class="input">
+			<label for="name">用户名</label>
+			<input type="text" name="username" id="name">
+			<span class="spin"></span>
+		</div>
+            <div class="input">
+                <label for="pass">密码</label>
+                <input type="password" name="password" id="pass">
+                <span class="spin"></span>
+            </div>
+            <div class="error btns login-form-tips" id="jsLoginTips">{% for key,error in login_form.errors.items %}{{error}}{% endfor %}{{msg}}</div>
+            <div class="button login">
+			<button type="submit">
+				<span>登录</span>
+				<i class="fa fa-check"></i>
+			</button>
+		</div>
+        {% csrf_token %}
+        </form>
+		<a href="{% url 'users:reset_password' %}" class="pass-forgot">忘记密码？</a>
+	</div>
+
+	<div class="overbox">
+		<div class="material-button alt-2">
+			<span class="shape"></span>
+		</div>
+		<div class="title">注册</div>
+        <form method="post" action="{% url 'users:register' %}">
+            <div class="input" style="margin-top: 5px">
+                <label for="username">用户名</label>
+                <input type="text" name="username" id="username">
+                <span class="spin"></span>
+		     </div>
+            <div class="input" style="margin-top: 5px">
+                <label for="email">邮箱</label>
+                <input type="email" name="email" id="email">
+                <span class="spin"></span>
+            </div>
+            <div class="input" style="margin-top: 5px">
+                <label for="password1">密码</label>
+                <input type="password" name="password1" id="password1">
+                <span class="spin"></span>
+            </div>
+            <div class="input" style="margin-top: 5px">
+                <label for="password2">确认密码</label>
+                <input type="password" name="password2" id="password2">
+                <span class="spin"></span>
+            </div>
+            <div class="button">
+                <button>
+                    <span>注册</span>
+                </button>
+            </div>
+            {% csrf_token %}
+        </form>
+	</div>
+
+</div>
+
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js1/jquery.min.js"></script>
+<script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com//js1/index.js"></script>
+
+
+
+</body>
+</html>

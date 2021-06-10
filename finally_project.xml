@@ -1,0 +1,7 @@
+<uwsgi>
+	<socket>127.0.0.1:8997</socket>
+	<chdir>/data/wwwroot/finally_project</chdir>
+	<module>finally_project.wsgi</module>
+	<processes>10</processes>
+	<daemonize>uwsgi.log</daemonize>
+</uwsgi>

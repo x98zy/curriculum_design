@@ -1,0 +1,721 @@
+2021-04-24 Saturday 19:13:16  [INFO]:  invokeAPI  {"totalCount":918,"pageNo":0,"pageSize":100,"deviceDataHistoryDTOs":[{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105305Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105303Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105300Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":106,"AirHumidity":58,"LightIntensity":2209,"SoilHumidity":7900},"timestamp":"20210424T105257Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105257Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105255Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":99,"AirHumidity":58,"LightIntensity":2209,"SoilHumidity":7900},"timestamp":"20210424T105252Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105252Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105250Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105247Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":99,"AirHumidity":57,"LightIntensity":2209,"SoilHumidity":7900},"timestamp":"20210424T105247Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105244Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105241Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":99,"AirHumidity":73,"LightIntensity":2209,"SoilHumidity":7800},"timestamp":"20210424T105241Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105239Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105236Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105236Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":109,"AirHumidity":74,"LightIntensity":2209,"SoilHumidity":7800},"timestamp":"20210424T105236Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":74,"LightIntensity":2209,"SoilHumidity":7800},"timestamp":"20210424T105231Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105231Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":75,"LightIntensity":2209,"SoilHumidity":7800},"timestamp":"20210424T105226Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105225Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":75,"LightIntensity":2209,"SoilHumidity":7800},"timestamp":"20210424T105221Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105218Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":75,"LightIntensity":2209,"SoilHumidity":7800},"timestamp":"20210424T105216Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105216Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105213Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105210Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":76,"LightIntensity":2300,"SoilHumidity":7800},"timestamp":"20210424T105210Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105208Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":76,"LightIntensity":2300,"SoilHumidity":7800},"timestamp":"20210424T105205Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105205Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105203Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105200Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":76,"LightIntensity":2300,"SoilHumidity":7800},"timestamp":"20210424T105200Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105158Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":76,"LightIntensity":2300,"SoilHumidity":7800},"timestamp":"20210424T105155Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105154Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105152Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":76,"LightIntensity":2300,"SoilHumidity":7800},"timestamp":"20210424T105150Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105149Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105147Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":77,"LightIntensity":2300,"SoilHumidity":7800},"timestamp":"20210424T105145Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105144Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105142Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":109,"AirHumidity":77,"LightIntensity":2300,"SoilHumidity":7800},"timestamp":"20210424T105140Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105139Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105137Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":77,"LightIntensity":2300,"SoilHumidity":7800},"timestamp":"20210424T105135Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105134Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105131Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":79,"LightIntensity":2300,"SoilHumidity":7900},"timestamp":"20210424T105130Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105129Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105126Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":110,"AirHumidity":70,"LightIntensity":2300,"SoilHumidity":7900},"timestamp":"20210424T105125Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105123Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105121Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":95,"AirHumidity":68,"LightIntensity":2300,"SoilHumidity":8000},"timestamp":"20210424T105119Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105118Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105115Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":90,"AirHumidity":39,"LightIntensity":2300,"SoilHumidity":8000},"timestamp":"20210424T105114Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105113Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105110Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":99,"AirHumidity":39,"LightIntensity":2300,"SoilHumidity":8000},"timestamp":"20210424T105109Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105108Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105105Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":100,"AirHumidity":38,"LightIntensity":2300,"SoilHumidity":8000},"timestamp":"20210424T105104Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105102Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105059Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":100,"AirHumidity":38,"LightIntensity":2300,"SoilHumidity":8000},"timestamp":"20210424T105059Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105057Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105054Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":99,"AirHumidity":38,"LightIntensity":2300,"SoilHumidity":8000},"timestamp":"20210424T105053Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105052Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105049Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":99,"AirHumidity":37,"LightIntensity":2209,"SoilHumidity":8000},"timestamp":"20210424T105048Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105047Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105044Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":100,"AirHumidity":36,"LightIntensity":2209,"SoilHumidity":8000},"timestamp":"20210424T105043Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105041Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105039Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":102,"AirHumidity":60,"LightIntensity":2209,"SoilHumidity":8000},"timestamp":"20210424T105038Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105036Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105033Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":99,"AirHumidity":64,"LightIntensity":2208,"SoilHumidity":8000},"timestamp":"20210424T105033Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105031Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105028Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":101,"AirHumidity":49,"LightIntensity":2208,"SoilHumidity":8200},"timestamp":"20210424T105027Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105025Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105023Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":80,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105022Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105020Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105018Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105015Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105012Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105009Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105007Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":1,"AirTemp":40,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105006Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105004Z"},{"deviceId":"a2703f32-fda4-412f-8e78-db89ae2c9345","gatewayId":"a2703f32-fda4-412f-8e78-db89ae2c9345","appId":"Y2fIeoKaw4Sizm0lZjGOZNfhRkoa","serviceId":"jujube_environment","data":{"mark":0,"AirTemp":0,"AirHumidity":0,"LightIntensity":0,"SoilHumidity":0},"timestamp":"20210424T105002Z"}]}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:20  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:20  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:20  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:20  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:24  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-04-24 Saturday 19:13:24  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-04-24 Saturday 19:13:24  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {"accessToken":"7cfa4e94d44a8e60c45d4a3231fd53","tokenType":"bearer","refreshToken":"8c8189bf8b9283c58c8eac9583235d0","expiresIn":3600,"scope":"default"}
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {"accessToken":"7cfa4e94d44a8e60c45d4a3231fd53","tokenType":"bearer","refreshToken":"8c8189bf8b9283c58c8eac9583235d0","expiresIn":3600,"scope":"default"}
+2021-04-24 Saturday 19:13:24  [INFO]:  invokeAPI2  {"accessToken":"7cfa4e94d44a8e60c45d4a3231fd53","tokenType":"bearer","refreshToken":"8c8189bf8b9283c58c8eac9583235d0","expiresIn":3600,"scope":"default"}
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  a2703f32-fda4-412f-8e78-db89ae2c9345
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  a2703f32-fda4-412f-8e78-db89ae2c9345
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  a2703f32-fda4-412f-8e78-db89ae2c9345
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  imsi
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  imsi
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  imsi
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  None
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  None
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  None
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  7cfa4e94d44a8e60c45d4a3231fd53
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  7cfa4e94d44a8e60c45d4a3231fd53
+2021-04-24 Saturday 19:13:24  [INFO]:  querySingleDeviceInfo  7cfa4e94d44a8e60c45d4a3231fd53
+2021-04-24 Saturday 19:13:24  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:24  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:24  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:29  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:13:29  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:29  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:29  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:13:34  [ERROR]:  invokeAPI  ('Connection aborted.', OSError(0, 'Error'))
+2021-04-24 Saturday 19:13:34  [ERROR]:  invokeAPI  ('Connection aborted.', OSError(0, 'Error'))
+2021-04-24 Saturday 19:13:34  [ERROR]:  invokeAPI  ('Connection aborted.', OSError(0, 'Error'))
+2021-04-24 Saturday 19:13:34  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 43, in invokeAPI
+    response = request.get(url, headers=headers, params=payload, cert=nc.cert, verify=False)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 134, in get
+    data=data_collect.querySingleDeviceInfo(deviceId=device_id,appId=None,select="imsi",accessToken=accesstoken[1:-1])
+  File "/data/env/pyweb/lib/python3.6/site-packages/PythonSDK_V20190905/com/huawei/iotplatform/client/invokeapi/DataCollection.py", line 24, in querySingleDeviceInfo
+    return NorthApiClient.invokeAPI(RestConstant.HTTPGET, authUrl, None, accessToken)
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 55, in invokeAPI
+    raise RequestException(e)
+requests.exceptions.RequestException: ('Connection aborted.', OSError(0, 'Error'))
+2021-04-24 Saturday 19:13:34  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 43, in invokeAPI
+    response = request.get(url, headers=headers, params=payload, cert=nc.cert, verify=False)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 134, in get
+    data=data_collect.querySingleDeviceInfo(deviceId=device_id,appId=None,select="imsi",accessToken=accesstoken[1:-1])
+  File "/data/env/pyweb/lib/python3.6/site-packages/PythonSDK_V20190905/com/huawei/iotplatform/client/invokeapi/DataCollection.py", line 24, in querySingleDeviceInfo
+    return NorthApiClient.invokeAPI(RestConstant.HTTPGET, authUrl, None, accessToken)
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 55, in invokeAPI
+    raise RequestException(e)
+requests.exceptions.RequestException: ('Connection aborted.', OSError(0, 'Error'))
+2021-04-24 Saturday 19:13:34  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 43, in invokeAPI
+    response = request.get(url, headers=headers, params=payload, cert=nc.cert, verify=False)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 134, in get
+    data=data_collect.querySingleDeviceInfo(deviceId=device_id,appId=None,select="imsi",accessToken=accesstoken[1:-1])
+  File "/data/env/pyweb/lib/python3.6/site-packages/PythonSDK_V20190905/com/huawei/iotplatform/client/invokeapi/DataCollection.py", line 24, in querySingleDeviceInfo
+    return NorthApiClient.invokeAPI(RestConstant.HTTPGET, authUrl, None, accessToken)
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 55, in invokeAPI
+    raise RequestException(e)
+requests.exceptions.RequestException: ('Connection aborted.', OSError(0, 'Error'))
+2021-04-24 Saturday 19:13:39  [ERROR]:  invokeAPI2  HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+2021-04-24 Saturday 19:13:39  [ERROR]:  invokeAPI2  HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+2021-04-24 Saturday 19:13:39  [ERROR]:  invokeAPI2  HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+2021-04-24 Saturday 19:13:39  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:835: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 385, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 337, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 69, in invokeAPI2
+    response = request.post(url, headers=headers, data=payload, cert=nc.cert, verify=False, timeout=10)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 130, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/env/pyweb/lib/python3.6/site-packages/PythonSDK_V20190905/com/huawei/iotplatform/client/invokeapi/Authentication.py", line 22, in getAuthToken
+    return NorthApiClient.invokeAPI2(RestConstant.HTTPPOST, authUrl, headers, payload)
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 75, in invokeAPI2
+    raise ReadTimeout(e)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+2021-04-24 Saturday 19:13:39  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:835: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 385, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 337, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 69, in invokeAPI2
+    response = request.post(url, headers=headers, data=payload, cert=nc.cert, verify=False, timeout=10)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 130, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/env/pyweb/lib/python3.6/site-packages/PythonSDK_V20190905/com/huawei/iotplatform/client/invokeapi/Authentication.py", line 22, in getAuthToken
+    return NorthApiClient.invokeAPI2(RestConstant.HTTPPOST, authUrl, headers, payload)
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 75, in invokeAPI2
+    raise ReadTimeout(e)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+2021-04-24 Saturday 19:13:39  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:835: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 385, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 337, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 69, in invokeAPI2
+    response = request.post(url, headers=headers, data=payload, cert=nc.cert, verify=False, timeout=10)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 130, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/env/pyweb/lib/python3.6/site-packages/PythonSDK_V20190905/com/huawei/iotplatform/client/invokeapi/Authentication.py", line 22, in getAuthToken
+    return NorthApiClient.invokeAPI2(RestConstant.HTTPPOST, authUrl, headers, payload)
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 75, in invokeAPI2
+    raise ReadTimeout(e)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='49.4.92.191', port=8743): Read timed out. (read timeout=10)
+2021-04-24 Saturday 19:14:17  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:14:17  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:14:17  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:14:17  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:14:17  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:14:18  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-04-24 Saturday 19:14:18  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-04-24 Saturday 19:14:18  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-04-24 Saturday 19:14:18  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-04-24 Saturday 19:14:18  [INFO]:  invokeAPI2  {"accessToken":"7119478873bae8d8f046c91399c42423","tokenType":"bearer","refreshToken":"53d4c82241becadf2d414c793c9fb1f","expiresIn":3600,"scope":"default"}
+2021-04-24 Saturday 19:14:18  [INFO]:  querySingleDeviceInfo  a2703f32-fda4-412f-8e78-db89ae2c9345
+2021-04-24 Saturday 19:14:18  [INFO]:  querySingleDeviceInfo  imsi
+2021-04-24 Saturday 19:14:18  [INFO]:  querySingleDeviceInfo  None
+2021-04-24 Saturday 19:14:18  [INFO]:  querySingleDeviceInfo  7119478873bae8d8f046c91399c42423
+2021-04-24 Saturday 19:14:18  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-04-24 Saturday 19:14:36  [ERROR]:  invokeAPI  ('Connection aborted.', OSError(0, 'Error'))
+2021-04-24 Saturday 19:14:36  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 43, in invokeAPI
+    response = request.get(url, headers=headers, params=payload, cert=nc.cert, verify=False)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 134, in get
+    data=data_collect.querySingleDeviceInfo(deviceId=device_id,appId=None,select="imsi",accessToken=accesstoken[1:-1])
+  File "/data/env/pyweb/lib/python3.6/site-packages/PythonSDK_V20190905/com/huawei/iotplatform/client/invokeapi/DataCollection.py", line 24, in querySingleDeviceInfo
+    return NorthApiClient.invokeAPI(RestConstant.HTTPGET, authUrl, None, accessToken)
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 55, in invokeAPI
+    raise RequestException(e)
+requests.exceptions.RequestException: ('Connection aborted.', OSError(0, 'Error'))

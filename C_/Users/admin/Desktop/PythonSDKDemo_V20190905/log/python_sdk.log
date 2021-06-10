@@ -1,0 +1,936 @@
+2021-04-19 Monday 10:29:32  [WARNING]:  get_response  Not Found: /favicon.ico
+2021-04-19 Monday 10:29:32  [WARNING]:  get_response  Not Found: /favicon.ico
+2021-04-19 Monday 10:29:32  [WARNING]:  get_response  Not Found: /favicon.ico
+2021-04-19 Monday 10:44:23  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:44:23  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:44:23  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:44:23  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:44:23  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:44:23  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:44:27  [WARNING]:  get_response  Not Found: /
+2021-04-19 Monday 10:44:27  [WARNING]:  get_response  Not Found: /
+2021-04-19 Monday 10:44:27  [WARNING]:  get_response  Not Found: /
+2021-04-19 Monday 10:46:13  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 10:46:13  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 10:46:13  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 10:50:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:50:51  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:50:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:50:51  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:50:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:50:51  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 10:52:32  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 10:52:33  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 10:52:34  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 10:52:34  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 10:52:34  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 10:52:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 10:52:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 10:52:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 10:52:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 10:52:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:52:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5806
+2021-04-19 Monday 10:52:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5806
+2021-04-19 Monday 10:52:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5806
+2021-04-19 Monday 10:54:25  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:54:25  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:54:25  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 10:54:25  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:54:25  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 10:54:25  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:12  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 11:23:12  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 11:23:12  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+  File "/usr/lib/python3.6/codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+2021-04-19 Monday 11:23:12  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:12  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:12  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:54  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:23:54  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:23:54  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:23:54  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:54  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:54  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9216
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9216
+2021-04-19 Monday 11:23:55  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9216
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:55  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4660
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4660
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4660
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:23:56  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:56  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5592
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5592
+2021-04-19 Monday 11:23:57  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5592
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:57  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:23:58  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:58  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:58  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5806
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5806
+2021-04-19 Monday 11:23:58  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5806
+2021-04-19 Monday 11:24:58  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:24:58  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:24:58  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:24:58  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaf in position 10: illegal multibyte sequence
+2021-04-19 Monday 11:24:58  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaf in position 10: illegal multibyte sequence
+2021-04-19 Monday 11:24:58  [ERROR]:  handle_uncaught_exception  Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 98, in get
+    res=read_news()
+  File "./utils/read_news.py", line 12, in read_news
+    title = f.readline().strip("\n")
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaf in position 10: illegal multibyte sequence
+2021-04-19 Monday 11:31:03  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:31:03  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:31:03  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:31:03  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:03  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:03  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:04  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:31:04  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:31:04  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:31:04  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:04  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:04  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:05  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:31:05  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:31:05  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:31:05  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:05  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:05  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:06  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:31:06  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:31:06  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:07  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:31:07  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:31:07  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:07  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:31:07  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:31:07  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:07  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:31:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4598
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4598
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4598
+2021-04-19 Monday 11:31:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:08  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 11:31:08  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 11:32:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:32:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:32:26  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:32:59  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 11:32:59  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 11:32:59  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 11:33:40  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:33:40  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:33:40  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19531
+2021-04-19 Monday 11:35:49  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 11:35:49  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 11:35:49  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/list
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'CLIENT_INFO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 93, in get
+    ag = authentication.getAuthToken(Constant().clientInfo())
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 34, in clientInfo
+    clientInfo.setPlatformIp((Constant().readConfFile())[0])
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/constant/Constant.py", line 26, in readConfFile
+    platformIp = cf.get("CLIENT_INFO", "platformIp")
+  File "/usr/lib/python3.6/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/lib/python3.6/configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'CLIENT_INFO'
+2021-04-19 Monday 11:46:56  [WARNING]:  get_response  Not Found: /
+2021-04-19 Monday 11:46:56  [WARNING]:  get_response  Not Found: /
+2021-04-19 Monday 11:46:56  [WARNING]:  get_response  Not Found: /
+2021-04-19 Monday 11:51:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:51  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:51  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:51:51  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:51:51  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:52  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:51:52  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:51:52  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:52  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:51:52  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:51:52  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:52  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7084
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807
+2021-04-19 Monday 11:51:53  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5807

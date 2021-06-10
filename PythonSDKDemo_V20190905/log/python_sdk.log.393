@@ -1,0 +1,28 @@
+2021-06-02 Wednesday 23:30:54  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 23:30:55  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-02 Wednesday 23:30:55  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-02 Wednesday 23:30:55  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 23:30:55  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 23:30:56  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-02 Wednesday 23:30:56  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-02 Wednesday 23:30:56  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-02 Wednesday 23:30:56  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 23:30:56  [INFO]:  invokeAPI2  {"accessToken":"ad396ad933ccccdd9e8266d3835161","tokenType":"bearer","refreshToken":"a4b6f72b529e5467efdbad4a6eb155f","expiresIn":3600,"scope":"default"}
+2021-06-02 Wednesday 23:30:56  [INFO]:  querySingleDeviceInfo  5f537702-7d80-4037-bc71-efdb1635794b
+2021-06-02 Wednesday 23:30:56  [INFO]:  querySingleDeviceInfo  imsi
+2021-06-02 Wednesday 23:30:56  [INFO]:  querySingleDeviceInfo  None
+2021-06-02 Wednesday 23:30:56  [INFO]:  querySingleDeviceInfo  ad396ad933ccccdd9e8266d3835161
+2021-06-02 Wednesday 23:30:56  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 23:30:56  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi HTTP/1.1" 200 None
+2021-06-02 Wednesday 23:30:56  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi
+2021-06-02 Wednesday 23:30:56  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer ad396ad933ccccdd9e8266d3835161', 'Content-Type': 'application/json'}
+2021-06-02 Wednesday 23:30:56  [INFO]:  invokeAPI  None
+2021-06-02 Wednesday 23:30:56  [INFO]:  invokeAPI  {"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T153055Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":1,"AirTemp":71,"AirHumidity":58,"LightIntensity":2605,"SoilHumidity":9500},"eventTime":"20210602T153054Z","serviceInfo":null}]}
+2021-06-02 Wednesday 23:30:56  [INFO]:  queryDeviceDataHistory  <Python_SDK_Demo.com.huawei.iotplatform.client.dto.QueryDeviceDataHistoryInDTO.QueryDeviceDataHistoryInDTO object at 0x7fbb39d95748>
+2021-06-02 Wednesday 23:30:56  [INFO]:  queryDeviceDataHistory  ad396ad933ccccdd9e8266d3835161
+2021-06-02 Wednesday 23:30:56  [INFO]:  queryDeviceDataHistory  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}
+2021-06-02 Wednesday 23:30:56  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 23:30:56  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/data/v1.2.0/deviceDataHistory?deviceId=5f537702-7d80-4037-bc71-efdb1635794b&gatewayId=5f537702-7d80-4037-bc71-efdb1635794b&pageSize=2000 HTTP/1.1" 200 None
+2021-06-02 Wednesday 23:30:57  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/data/v1.2.0/deviceDataHistory
+2021-06-02 Wednesday 23:30:57  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer ad396ad933ccccdd9e8266d3835161', 'Content-Type': 'application/json'}
+2021-06-02 Wednesday 23:30:57  [INFO]:  invokeAPI  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}

@@ -1,0 +1,31 @@
+2021-04-20 Tuesday 14:05:36  [ERROR]:  handle_uncaught_exception  Internal Server Error: /users/concat_us
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "./users/views.py", line 259, in post
+    concatform=ConcatUsForm(request.POST)
+NameError: name 'ConcatUsForm' is not defined
+2021-04-20 Tuesday 14:05:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415141202704/ HTTP/1.1" 200 5708
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133839530/ HTTP/1.1" 200 4661
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415133227315/ HTTP/1.1" 200 9217
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130831292/ HTTP/1.1" 200 7088
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130404086/ HTTP/1.1" 200 6012
+2021-04-20 Tuesday 14:09:35  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-20 Tuesday 14:09:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415130206537/ HTTP/1.1" 200 5593
+2021-04-20 Tuesday 14:09:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-20 Tuesday 14:09:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415125159635/ HTTP/1.1" 200 4599
+2021-04-20 Tuesday 14:09:36  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-20 Tuesday 14:09:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210415123421545/ HTTP/1.1" 200 5806

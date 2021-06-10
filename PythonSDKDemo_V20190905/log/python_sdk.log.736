@@ -1,0 +1,98 @@
+2021-04-24 Saturday 19:14:36  [ERROR]:  handle_uncaught_exception  Internal Server Error: /device/detail/a2703f32-fda4-412f-8e78-db89ae2c9345
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/data/env/pyweb/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/usr/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 43, in invokeAPI
+    response = request.get(url, headers=headers, params=payload, cert=nc.cert, verify=False)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/data/env/pyweb/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "./device/views.py", line 134, in get
+    data=data_collect.querySingleDeviceInfo(deviceId=device_id,appId=None,select="imsi",accessToken=accesstoken[1:-1])
+  File "/data/env/pyweb/lib/python3.6/site-packages/PythonSDK_V20190905/com/huawei/iotplatform/client/invokeapi/DataCollection.py", line 24, in querySingleDeviceInfo
+    return NorthApiClient.invokeAPI(RestConstant.HTTPGET, authUrl, None, accessToken)
+  File "/data/wwwroot/finally_project/PythonSDKDemo_V20190905/Python_SDK_Demo/com/huawei/iotplatform/client/NorthApiClient.py", line 55, in invokeAPI
+    raise RequestException(e)
+requests.exceptions.RequestException: ('Connection aborted.', OSError(0, 'Error'))

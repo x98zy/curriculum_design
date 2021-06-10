@@ -1,0 +1,45 @@
+2021-05-22 Saturday 14:19:59  [WARNING]:  log_response  Not Found: /robots.txt
+2021-05-22 Saturday 14:20:09  [WARNING]:  log_response  Not Found: /
+2021-05-22 Saturday 14:41:55  [WARNING]:  log_response  Not Found: /
+2021-05-22 Saturday 15:06:11  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-22 Saturday 15:07:32  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-22 Saturday 15:07:36  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19619
+2021-05-22 Saturday 15:07:36  [WARNING]:  log_response  Not Found: /
+2021-05-22 Saturday 15:07:36  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-05-22 Saturday 15:07:37  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19619
+2021-05-22 Saturday 15:07:39  [WARNING]:  log_response  Not Found: /favicon.ico
+2021-05-22 Saturday 15:08:25  [WARNING]:  log_response  Not Found: /
+2021-05-22 Saturday 15:08:32  [WARNING]:  log_response  Not Found: /
+2021-05-22 Saturday 15:10:04  [INFO]:  put_object  put object, url=:https://first-1257059002.cos.ap-nanjing.myqcloud.com/video/name.mp4 ,headers=:{'x-cos-storage-class': 'STANDARD'}
+2021-05-22 Saturday 15:10:04  [DEBUG]:  __call__  format str: put
+/video/name.mp4
+
+x-cos-storage-class=STANDARD
+
+2021-05-22 Saturday 15:10:04  [DEBUG]:  __call__  str_to_sign: sha1
+1621667344;1621677404
+6dd61d5260bd1e156a8c81b39978aea6eb8675a6
+
+2021-05-22 Saturday 15:10:04  [DEBUG]:  __call__  sign_key: 451de568ed24dca4034901522b82adb03370f0cd
+2021-05-22 Saturday 15:10:04  [DEBUG]:  __call__  sign: 036f36f6358222d29906510d5f80350a129d8d51
+2021-05-22 Saturday 15:10:04  [DEBUG]:  __call__  sign_key451de568ed24dca4034901522b82adb03370f0cd
+2021-05-22 Saturday 15:10:04  [DEBUG]:  __call__  q-sign-algorithm=sha1&q-ak=AKIDToywiHcoslQr30iBQREqIWXJsCIAnDYo&q-sign-time=1621667344;1621677404&q-key-time=1621667344;1621677404&q-header-list=x-cos-storage-class&q-url-param-list=&q-signature=036f36f6358222d29906510d5f80350a129d8d51
+2021-05-22 Saturday 15:10:04  [DEBUG]:  __call__  request headers: {'User-Agent': b'cos-python-sdk-v5.1.9.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'x-cos-storage-class': b'STANDARD', 'Content-Length': '1629474', 'Authorization': 'q-sign-algorithm=sha1&q-ak=AKIDToywiHcoslQr30iBQREqIWXJsCIAnDYo&q-sign-time=1621667344;1621677404&q-key-time=1621667344;1621677404&q-header-list=x-cos-storage-class&q-url-param-list=&q-signature=036f36f6358222d29906510d5f80350a129d8d51'}
+2021-05-22 Saturday 15:10:04  [DEBUG]:  _get_conn  Resetting dropped connection: first-1257059002.cos.ap-nanjing.myqcloud.com
+2021-05-22 Saturday 15:10:04  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-22 Saturday 15:10:04  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-22 Saturday 15:10:04  [DEBUG]:  _make_request  https://first-1257059002.cos.ap-nanjing.myqcloud.com:443 "PUT /video/name.mp4 HTTP/1.1" 200 0
+2021-05-22 Saturday 15:12:01  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514152605982/ HTTP/1.1" 200 6828
+2021-05-22 Saturday 15:12:01  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514152605982/ HTTP/1.1" 200 6828
+2021-05-22 Saturday 15:25:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-22 Saturday 15:25:17  [ERROR]:  response_for_exception  Request body exceeded settings.DATA_UPLOAD_MAX_MEMORY_SIZE.
+2021-05-22 Saturday 15:25:17  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-22 Saturday 15:25:17  [WARNING]:  log_response  Bad Request: /uploadvideo
+2021-05-22 Saturday 15:25:53  [ERROR]:  response_for_exception  Request body exceeded settings.DATA_UPLOAD_MAX_MEMORY_SIZE.
+2021-05-22 Saturday 15:25:53  [WARNING]:  log_response  Bad Request: /uploadvideo
+2021-05-22 Saturday 15:26:00  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5293
+2021-05-22 Saturday 15:26:00  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210514145903398/ HTTP/1.1" 200 5293
+2021-05-22 Saturday 15:34:09  [ERROR]:  response_for_exception  Request body exceeded settings.DATA_UPLOAD_MAX_MEMORY_SIZE.
+2021-05-22 Saturday 15:34:09  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-22 Saturday 15:34:09  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-05-22 Saturday 15:34:09  [WARNING]:  log_response  Bad Request: /uploadvideo

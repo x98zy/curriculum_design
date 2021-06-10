@@ -1,0 +1,35 @@
+2021-04-25 Sunday 10:10:14  [WARNING]:  get_response  Not Found: /favicon.ico
+2021-04-25 Sunday 10:10:14  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 10:10:40  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19136
+2021-04-25 Sunday 10:36:40  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185948995/ HTTP/1.1" 200 4481
+2021-04-25 Sunday 10:36:40  [WARNING]:  get_response  Not Found: /
+2021-04-25 Sunday 13:14:28  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:28  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:28  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185948995/ HTTP/1.1" 200 4482
+2021-04-25 Sunday 13:14:28  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185729712/ HTTP/1.1" 200 4538
+2021-04-25 Sunday 13:14:28  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:28  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185422930/ HTTP/1.1" 200 5622
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185729712/ HTTP/1.1" 200 4538
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423185422930/ HTTP/1.1" 200 5622
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423184817026/ HTTP/1.1" 200 6424
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423184817026/ HTTP/1.1" 200 6423
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423184203179/ HTTP/1.1" 200 4549
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423184203179/ HTTP/1.1" 200 4550
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423182437450/ HTTP/1.1" 200 5866
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423182437450/ HTTP/1.1" 200 5865
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423182005812/ HTTP/1.1" 200 7776
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:29  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:30  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423182005812/ HTTP/1.1" 200 7776
+2021-04-25 Sunday 13:14:30  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423173954136/ HTTP/1.1" 200 4596
+2021-04-25 Sunday 13:14:30  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-04-25 Sunday 13:14:30  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210423173954136/ HTTP/1.1" 200 4595

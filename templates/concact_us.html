@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+{% extends 'index1.html' %}
+<html lang="zh-CN">
+<head>
+	{% block title %}联系我们{% endblock %}
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% block css %}
+        <link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css/select2.min.css">
+        <link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css/util.css">
+        <link rel="stylesheet" href="https://first-1257059002.cos.ap-nanjing.myqcloud.com/css/main.css">
+        <style>
+             * {
+                 padding: 0;
+                 margin: 0;
+             }
+             .slider {
+                 background: none;
+                 min-height:120px;
+                 background-color: black;
+                 margin: 0 5px;
+             }
+             .main {
+                margin: 0 auto;
+                padding: 50px 0;
+                width: 1000px;
+                min-height: 400px;
+            }
+        </style>
+    {% endblock %}
+	
+</head>
+{% block background %}{% endblock %}
+{% block content %}
+    <div class="dowebok container-contact100">
+	<div class="wrap-contact100">
+		<form class="contact100-form validate-form" id="jsbtnform">
+			<span class="contact100-form-title">联系我们</span>
+
+			<div class="wrap-input100 validate-input" data-validate="姓名不能为空">
+				<label class="label-input100" for="name">姓名</label>
+				<input id="name" class="input100" type="text" name="name" placeholder="请输入姓名">
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100 validate-input" data-validate="请收入合法的邮箱地址">
+				<label class="label-input100" for="email">电子邮箱</label>
+				<input id="email" class="input100" type="text" name="email" placeholder="请输入电子邮箱">
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100">
+				<div class="label-input100">需要什么服务？</div>
+				<div>
+					<select class="js-select2" name="service">
+						<option>请选择</option>
+						<option>产品咨询</option>
+						<option>问题反馈</option>
+						<option>在线服务</option>
+					</select>
+					<div class="dropDownSelect2"></div>
+				</div>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100 validate-input" data-validate="留言不能为空">
+				<label class="label-input100" for="message">留言</label>
+				<textarea id="message" class="input100" name="message" placeholder="请输入留言"></textarea>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="container-contact100-form-btn">
+				<button class="contact100-form-btn" id="jsbtn1">提 交</button>
+			</div>
+
+			<div class="contact100-form-social flex-c-m">
+				<a href="#" class="contact100-form-social-item flex-c-m bg1 m-r-20" target="_blank">
+					<i class="fa fa-wechat" aria-hidden="true"></i>
+				</a>
+
+				<a href="#" class="contact100-form-social-item flex-c-m bg2 m-r-20" target="_blank">
+					<i class="fa fa-qq" aria-hidden="true"></i>
+				</a>
+
+				<a href="#" class="contact100-form-social-item flex-c-m bg3" target="_blank">
+					<i class="fa fa-weibo" aria-hidden="true"></i>
+				</a>
+			</div>
+            {% csrf_token %}
+		</form>
+
+		<div class="contact100-more flex-col-c-m" style="background-image: url('https://first-1257059002.cos.ap-nanjing.myqcloud.com/images/bg-01.jpeg');">
+		</div>
+        <script>
+            $(".js-select2").each(function(){
+                $(this).select2({
+                    minimumResultsForSearch: 20,
+                    dropdownParent: $(this).next('.dropDownSelect2')
+                });
+            })
+            $(".js-select2").each(function(){
+                $(this).on('select2:open', function (e){
+                    $(this).parent().next().addClass('eff-focus-selection');
+                });
+            });
+            $(".js-select2").each(function(){
+                $(this).on('select2:close', function (e){
+                    $(this).parent().next().removeClass('eff-focus-selection');
+                });
+            });
+        </script>
+	</div>
+</div>
+{% endblock %}
+{% block js %}
+        <script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/jquery-1.12.4.min.js"></script>
+        <script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/select3.min.js"></script>
+        <script src="https://first-1257059002.cos.ap-nanjing.myqcloud.com/js/main.js"></script>
+        <script>
+            $(function () {
+                $('#jsbtn1').on('click',function () {
+                    $.ajax({
+                        cache:false,
+                        type:'POST',
+                        url:"{% url "users:concat" %}",
+                        data:$('#jsbtnform').serialize(),
+                        async:true,
+                        success:function (data) {
+                            if(data.status=="success"){
+                                $('#jsbtnform')[0].reset();
+                                alert("感谢您的留言")
+                            }
+                            else if(data.status=='fail'){
+                                $('#jsbtnform')[0].reset();
+                                alert("表单填写错误")
+                            }
+                        },
+                    });
+                });
+            })
+        </script>
+{% endblock %}
+</html>

@@ -1,0 +1,29 @@
+2021-06-02 Wednesday 20:58:56  [WARNING]:  log_response  Not Found: /
+2021-06-02 Wednesday 21:07:03  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:07:03  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-02 Wednesday 21:07:03  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-02 Wednesday 21:07:03  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:07:03  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 21:07:03  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-02 Wednesday 21:07:03  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-02 Wednesday 21:07:03  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-02 Wednesday 21:07:03  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-02 Wednesday 21:07:03  [INFO]:  invokeAPI2  {"accessToken":"89690e72dd464feac4bacee9b6d8c4e","tokenType":"bearer","refreshToken":"3c72e2d8c49e282a95dc779d931c9e","expiresIn":3600,"scope":"default"}
+2021-06-02 Wednesday 21:07:03  [INFO]:  querySingleDeviceInfo  5f537702-7d80-4037-bc71-efdb1635794b
+2021-06-02 Wednesday 21:07:03  [INFO]:  querySingleDeviceInfo  imsi
+2021-06-02 Wednesday 21:07:03  [INFO]:  querySingleDeviceInfo  None
+2021-06-02 Wednesday 21:07:03  [INFO]:  querySingleDeviceInfo  89690e72dd464feac4bacee9b6d8c4e
+2021-06-02 Wednesday 21:07:03  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 21:07:04  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi HTTP/1.1" 200 None
+2021-06-02 Wednesday 21:07:04  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi
+2021-06-02 Wednesday 21:07:04  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 89690e72dd464feac4bacee9b6d8c4e', 'Content-Type': 'application/json'}
+2021-06-02 Wednesday 21:07:04  [INFO]:  invokeAPI  None
+2021-06-02 Wednesday 21:07:04  [INFO]:  invokeAPI  {"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T130659Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":1,"AirTemp":131,"AirHumidity":65,"LightIntensity":2607,"SoilHumidity":9300},"eventTime":"20210602T130658Z","serviceInfo":null}]}
+2021-06-02 Wednesday 21:07:04  [INFO]:  queryDeviceDataHistory  <Python_SDK_Demo.com.huawei.iotplatform.client.dto.QueryDeviceDataHistoryInDTO.QueryDeviceDataHistoryInDTO object at 0x7fbb39fb2c50>
+2021-06-02 Wednesday 21:07:04  [INFO]:  queryDeviceDataHistory  89690e72dd464feac4bacee9b6d8c4e
+2021-06-02 Wednesday 21:07:04  [INFO]:  queryDeviceDataHistory  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}
+2021-06-02 Wednesday 21:07:04  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-02 Wednesday 21:07:04  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/data/v1.2.0/deviceDataHistory?deviceId=5f537702-7d80-4037-bc71-efdb1635794b&gatewayId=5f537702-7d80-4037-bc71-efdb1635794b&pageSize=2000 HTTP/1.1" 200 None
+2021-06-02 Wednesday 21:07:04  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/data/v1.2.0/deviceDataHistory
+2021-06-02 Wednesday 21:07:04  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 89690e72dd464feac4bacee9b6d8c4e', 'Content-Type': 'application/json'}
+2021-06-02 Wednesday 21:07:04  [INFO]:  invokeAPI  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}

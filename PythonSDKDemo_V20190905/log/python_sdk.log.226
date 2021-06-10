@@ -1,0 +1,110 @@
+2021-06-03 Thursday 00:16:55  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 00:16:56  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 00:16:56  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 00:16:56  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 00:16:56  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 00:16:57  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-03 Thursday 00:16:57  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 00:16:57  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 00:16:57  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 00:16:57  [INFO]:  invokeAPI2  {"accessToken":"78d3592bf4c894537b9fdc878d91ce0","tokenType":"bearer","refreshToken":"34afddd3f983cd71f3357e1db0d65c9e","expiresIn":3600,"scope":"default"}
+2021-06-03 Thursday 00:16:57  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-06-03 Thursday 00:16:57  [INFO]:  queryBatchDevicesInfo  78d3592bf4c894537b9fdc878d91ce0
+2021-06-03 Thursday 00:16:57  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 00:16:57  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-06-03 Thursday 00:16:57  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-06-03 Thursday 00:16:57  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 78d3592bf4c894537b9fdc878d91ce0', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 00:16:57  [INFO]:  invokeAPI  None
+2021-06-03 Thursday 00:16:57  [INFO]:  invokeAPI  {"totalCount":1,"pageNo":0,"pageSize":20,"devices":[{"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T161657Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":1,"AirTemp":79,"AirHumidity":0,"LightIntensity":2608,"SoilHumidity":9300},"eventTime":"20210602T161657Z","serviceInfo":null}]}]}
+2021-06-03 Thursday 01:15:34  [WARNING]:  log_response  Not Found: /
+2021-06-03 Thursday 02:15:06  [WARNING]:  log_response  Not Found: /
+2021-06-03 Thursday 03:25:21  [WARNING]:  log_response  Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-03 Thursday 03:25:23  [WARNING]:  log_response  Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-03 Thursday 03:25:28  [WARNING]:  log_response  Not Found: /index.php
+2021-06-03 Thursday 03:25:33  [WARNING]:  log_response  Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-03 Thursday 03:25:35  [WARNING]:  log_response  Not Found: /console/
+2021-06-03 Thursday 04:50:59  [WARNING]:  log_response  Not Found: /index.php/admin/
+2021-06-03 Thursday 04:51:02  [WARNING]:  log_response  Not Found: /dev/index.php/admin/
+2021-06-03 Thursday 04:51:05  [WARNING]:  log_response  Not Found: /demo/index.php/admin/
+2021-06-03 Thursday 04:51:08  [WARNING]:  log_response  Not Found: /store/index.php/admin/
+2021-06-03 Thursday 04:51:10  [WARNING]:  log_response  Not Found: /staging/index.php/admin/
+2021-06-03 Thursday 04:51:13  [WARNING]:  log_response  Not Found: /rss/catalog/notifystock
+2021-06-03 Thursday 04:51:15  [WARNING]:  log_response  Not Found: /old/rss/order/new
+2021-06-03 Thursday 04:51:17  [WARNING]:  log_response  Not Found: /old/rss/catalog/review
+2021-06-03 Thursday 04:51:20  [WARNING]:  log_response  Not Found: /dev/rss/catalog/notifystock
+2021-06-03 Thursday 04:51:22  [WARNING]:  log_response  Not Found: /test/rss/order/new
+2021-06-03 Thursday 04:51:25  [WARNING]:  log_response  Not Found: /test/rss/catalog/review
+2021-06-03 Thursday 04:51:27  [WARNING]:  log_response  Not Found: /demo/rss/catalog/notifystock
+2021-06-03 Thursday 04:51:29  [WARNING]:  log_response  Not Found: /shop/rss/order/new
+2021-06-03 Thursday 04:51:31  [WARNING]:  log_response  Not Found: /shop/rss/catalog/review
+2021-06-03 Thursday 04:51:33  [WARNING]:  log_response  Not Found: /store/rss/catalog/notifystock
+2021-06-03 Thursday 04:51:36  [WARNING]:  log_response  Not Found: /magento/rss/order/new
+2021-06-03 Thursday 04:51:38  [WARNING]:  log_response  Not Found: /magento/rss/catalog/review
+2021-06-03 Thursday 04:51:41  [WARNING]:  log_response  Not Found: /staging/rss/catalog/notifystock
+2021-06-03 Thursday 04:51:43  [WARNING]:  log_response  Not Found: /downloader/index.php
+2021-06-03 Thursday 04:51:45  [WARNING]:  log_response  Not Found: /dev/downloader/index.php
+2021-06-03 Thursday 04:51:48  [WARNING]:  log_response  Not Found: /demo/downloader/index.php
+2021-06-03 Thursday 04:51:51  [WARNING]:  log_response  Not Found: /store/downloader/index.php
+2021-06-03 Thursday 04:51:53  [WARNING]:  log_response  Not Found: /staging/downloader/index.php
+2021-06-03 Thursday 04:51:56  [WARNING]:  log_response  Not Found: /old/errors/503.php
+2021-06-03 Thursday 04:51:58  [WARNING]:  log_response  Not Found: /test/errors/503.php
+2021-06-03 Thursday 04:52:02  [WARNING]:  log_response  Not Found: /shop/errors/503.php
+2021-06-03 Thursday 04:52:04  [WARNING]:  log_response  Not Found: /magento/errors/503.php
+2021-06-03 Thursday 06:47:19  [WARNING]:  log_response  Not Found: /
+2021-06-03 Thursday 07:42:23  [WARNING]:  log_response  Not Found: /
+2021-06-03 Thursday 07:50:10  [WARNING]:  log_response  Not Found: /solr/
+2021-06-03 Thursday 08:43:14  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-06-03 Thursday 08:43:19  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 08:43:19  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 08:43:19  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 08:43:19  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 08:43:19  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 08:43:19  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-03 Thursday 08:43:19  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 08:43:19  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 08:43:19  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 08:43:19  [INFO]:  invokeAPI2  {"accessToken":"9bb86502097b0df28fe8b4d943276d","tokenType":"bearer","refreshToken":"1e7786dd512b3b23641af911c15f031","expiresIn":3600,"scope":"default"}
+2021-06-03 Thursday 08:43:19  [INFO]:  queryBatchDevicesInfo  {'appId': None, 'deviceType': None, 'endTime': None, 'gatewayId': None, 'nodeType': None, 'pageNo': None, 'pageSize': '20', 'select': None, 'sort': None, 'startTime': None, 'status': None}
+2021-06-03 Thursday 08:43:19  [INFO]:  queryBatchDevicesInfo  9bb86502097b0df28fe8b4d943276d
+2021-06-03 Thursday 08:43:19  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 08:43:20  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices?&pageSize=20 HTTP/1.1" 200 None
+2021-06-03 Thursday 08:43:20  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices?&pageSize=20
+2021-06-03 Thursday 08:43:20  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer 9bb86502097b0df28fe8b4d943276d', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 08:43:20  [INFO]:  invokeAPI  None
+2021-06-03 Thursday 08:43:20  [INFO]:  invokeAPI  {"totalCount":1,"pageNo":0,"pageSize":20,"devices":[{"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T164558Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":1,"AirTemp":0,"AirHumidity":0,"LightIntensity":2607,"SoilHumidity":9300},"eventTime":"20210602T164557Z","serviceInfo":null}]}]}
+2021-06-03 Thursday 08:44:21  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET / HTTP/1.1" 200 19785
+2021-06-03 Thursday 08:44:21  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'platformIp': '49.4.92.191', 'platformPort': '8743', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 08:44:21  [INFO]:  getAuthToken  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 08:44:21  [INFO]:  getAuthToken  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 08:44:21  [INFO]:  getAuthToken  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 08:44:21  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 08:44:21  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210527161557129/ HTTP/1.1" 200 6746
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _make_request  https://49.4.92.191:8743 "POST /iocm/app/sec/v1.1.0/login HTTP/1.1" 200 None
+2021-06-03 Thursday 08:44:22  [INFO]:  invokeAPI2  https://49.4.92.191:8743/iocm/app/sec/v1.1.0/login
+2021-06-03 Thursday 08:44:22  [INFO]:  invokeAPI2  {'Content-Type': 'application/x-www-form-urlencoded'}
+2021-06-03 Thursday 08:44:22  [INFO]:  invokeAPI2  {'appId': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'secret': 'ooTg8slrSLBYn2d3BB_HO_O1zxQa'}
+2021-06-03 Thursday 08:44:22  [INFO]:  invokeAPI2  {"accessToken":"afdbc6d571252e5248ec32f2941249e","tokenType":"bearer","refreshToken":"aa2ce0ebf32d129cef9e5d2b11cb5962","expiresIn":3600,"scope":"default"}
+2021-06-03 Thursday 08:44:22  [INFO]:  querySingleDeviceInfo  5f537702-7d80-4037-bc71-efdb1635794b
+2021-06-03 Thursday 08:44:22  [INFO]:  querySingleDeviceInfo  imsi
+2021-06-03 Thursday 08:44:22  [INFO]:  querySingleDeviceInfo  None
+2021-06-03 Thursday 08:44:22  [INFO]:  querySingleDeviceInfo  afdbc6d571252e5248ec32f2941249e
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi HTTP/1.1" 200 None
+2021-06-03 Thursday 08:44:22  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/dm/v1.4.0/devices/5f537702-7d80-4037-bc71-efdb1635794b?&select=imsi
+2021-06-03 Thursday 08:44:22  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer afdbc6d571252e5248ec32f2941249e', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 08:44:22  [INFO]:  invokeAPI  None
+2021-06-03 Thursday 08:44:22  [INFO]:  invokeAPI  {"deviceId":"5f537702-7d80-4037-bc71-efdb1635794b","gatewayId":"5f537702-7d80-4037-bc71-efdb1635794b","nodeType":"GATEWAY","createTime":"20210527T081754Z","lastModifiedTime":"20210602T164558Z","deviceInfo":{"nodeId":"860411049886490","name":"environment","manufacturerId":"8d2cb5b1888d459a914983c791e17bc1","manufacturerName":"HUAWEI","location":"Shenzhen","deviceType":"MultiSensor","model":"00000001","protocolType":"LWM2M","status":"ONLINE","statusDetail":"NONE","mute":"FALSE"},"services":[{"serviceId":"jujube_environment","serviceType":"jujube_environment","data":{"mark":1,"AirTemp":0,"AirHumidity":0,"LightIntensity":2607,"SoilHumidity":9300},"eventTime":"20210602T164557Z","serviceInfo":null}]}
+2021-06-03 Thursday 08:44:22  [INFO]:  queryDeviceDataHistory  <Python_SDK_Demo.com.huawei.iotplatform.client.dto.QueryDeviceDataHistoryInDTO.QueryDeviceDataHistoryInDTO object at 0x7fbb3ab37e10>
+2021-06-03 Thursday 08:44:22  [INFO]:  queryDeviceDataHistory  afdbc6d571252e5248ec32f2941249e
+2021-06-03 Thursday 08:44:22  [INFO]:  queryDeviceDataHistory  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _new_conn  Starting new HTTPS connection (1): 49.4.92.191:8743
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210526160137706/ HTTP/1.1" 200 6469
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _make_request  http://www.agricoop.net:80 "GET //Article/Detail/210526125859454/ HTTP/1.1" 200 5503
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _make_request  https://49.4.92.191:8743 "GET /iocm/app/data/v1.2.0/deviceDataHistory?deviceId=5f537702-7d80-4037-bc71-efdb1635794b&gatewayId=5f537702-7d80-4037-bc71-efdb1635794b&pageSize=2000 HTTP/1.1" 200 None
+2021-06-03 Thursday 08:44:22  [DEBUG]:  _new_conn  Starting new HTTP connection (1): www.agricoop.net:80
+2021-06-03 Thursday 08:44:23  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/data/v1.2.0/deviceDataHistory
+2021-06-03 Thursday 08:44:23  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer afdbc6d571252e5248ec32f2941249e', 'Content-Type': 'application/json'}
+2021-06-03 Thursday 08:44:23  [INFO]:  invokeAPI  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}
