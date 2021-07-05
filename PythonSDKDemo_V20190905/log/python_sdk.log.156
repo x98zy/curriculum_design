@@ -103,3 +103,30 @@
 2021-06-03 Thursday 10:20:23  [INFO]:  invokeAPI  https://49.4.92.191:8743/iocm/app/data/v1.2.0/deviceDataHistory
 2021-06-03 Thursday 10:20:23  [INFO]:  invokeAPI  {'app_key': 'Y2fIeoKaw4Sizm0lZjGOZNfhRkoa', 'Authorization': 'Bearer bfd1ab70445bb5dc2ed751df5d6c6e', 'Content-Type': 'application/json'}
 2021-06-03 Thursday 10:20:23  [INFO]:  invokeAPI  {'appId': None, 'deviceId': '5f537702-7d80-4037-bc71-efdb1635794b', 'endTime': None, 'gatewayId': '5f537702-7d80-4037-bc71-efdb1635794b', 'pageNo': None, 'pageSize': 2000, 'property': None, 'serviceId': None, 'startTime': None}
+2021-06-11 Friday 06:14:22  [WARNING]:  log_response  Not Found: /Autodiscover/Autodiscover.xml
+2021-06-11 Friday 06:14:22  [WARNING]:  log_response  Not Found: /Autodiscover/Autodiscover.xml
+2021-06-11 Friday 06:14:22  [WARNING]:  log_response  Not Found: /Autodiscover/Autodiscover.xml
+2021-06-12 Saturday 17:32:39  [WARNING]:  log_response  Not Found: /_ignition/execute-solution
+2021-06-12 Saturday 17:32:39  [WARNING]:  log_response  Not Found: /_ignition/execute-solution
+2021-06-12 Saturday 17:32:39  [WARNING]:  log_response  Not Found: /_ignition/execute-solution
+2021-06-14 Monday 03:04:44  [WARNING]:  log_response  Not Found: /mifs/.;/services/LogService
+2021-06-14 Monday 03:04:44  [WARNING]:  log_response  Not Found: /mifs/.;/services/LogService
+2021-06-14 Monday 03:04:44  [WARNING]:  log_response  Not Found: /mifs/.;/services/LogService
+2021-06-14 Monday 23:48:21  [WARNING]:  log_response  Not Found: /console/
+2021-06-14 Monday 23:48:21  [WARNING]:  log_response  Not Found: /console/
+2021-06-14 Monday 23:48:21  [WARNING]:  log_response  Not Found: /console/
+2021-06-20 Sunday 19:28:54  [WARNING]:  log_response  Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-20 Sunday 19:28:54  [WARNING]:  log_response  Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-20 Sunday 19:28:54  [WARNING]:  log_response  Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-23 Wednesday 01:02:18  [WARNING]:  log_response  Not Found: /
+2021-06-23 Wednesday 01:02:18  [WARNING]:  log_response  Not Found: /
+2021-06-23 Wednesday 01:02:18  [WARNING]:  log_response  Not Found: /
+2021-06-23 Wednesday 18:42:19  [WARNING]:  log_response  Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-23 Wednesday 18:42:19  [WARNING]:  log_response  Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-23 Wednesday 18:42:19  [WARNING]:  log_response  Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-26 Saturday 17:14:14  [WARNING]:  log_response  Not Found: /mifs/.;/services/LogService
+2021-06-26 Saturday 17:14:14  [WARNING]:  log_response  Not Found: /mifs/.;/services/LogService
+2021-06-26 Saturday 17:14:14  [WARNING]:  log_response  Not Found: /mifs/.;/services/LogService
+2021-06-30 Wednesday 12:08:04  [WARNING]:  log_response  Not Found: /
+2021-06-30 Wednesday 12:08:04  [WARNING]:  log_response  Not Found: /
+2021-06-30 Wednesday 12:08:04  [WARNING]:  log_response  Not Found: /
